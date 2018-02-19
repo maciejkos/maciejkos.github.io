@@ -10,14 +10,14 @@ title: My Projects
 <hr />
 
 <h3>Body Affect Dashboard (B.A.D.)</h3>
-<span class="image fit"><img src="assets/images/bad-main.png" alt="" /></span>
 <p>The goal of this project was to create an open-source exploratory tool for physiological, affect and context data.</p>
+<span class="image fit"><img src="assets/images/bad-main.png" alt="" /></span>
 
 <p>B.A.D. enables visualization of such body measurements as heart rate, skin temperature, galvanic skin response, number of steps, and number of calories burned. Remaining variables are self-reported measures of my affect, emotions, energy and hunger.</p>
 
 <div class="row 50% uniform">
-<div class="4u"><span class="image fit"><img src="assets/images/bad-one.png" alt="" /></span></div>
-<div class="4u"><span class="image fit"><img src="assets/images/bad-two.png" alt="" /></span></div>
+<div class="4u"><span class="image left"><img src="assets/images/bad-one.png" alt="" /></span></div>
+<div class="4u"><span class="image right"><img src="assets/images/bad-two.png" alt="" /></span></div>
 
 <p>Exploration of these data will aid in revealing relationships between human physiology (e.g., heart rate) and emotional states (e.g., anxiety). The long term goal of this project is to learn how to detect extreme emotional states from physiological data collected using unobtrusive wearable technologies. Such information would help deliver just-in-time health interventions to people with such anxiety-driven conditions as binge eating disorder.</p>
 
@@ -28,7 +28,7 @@ title: My Projects
 <li>d3.js</li>
 <br/>
 
-See this <a href="https://maciejkos.github.io/Body-Affect-Dashboard/">visualization live here</a>. (Please give the visualization a few seconds to load. It is a large dataset and d3 is not particularly fast.) <br/>
+See this <a href="https://maciejkos.github.io/Body-Affect-Dashboard/">visualization live here</a>.<br/>
 See <a href="https://github.com/maciejkos/Body-Affect-Dashboard">code on GitHub here</a>.
 
 
