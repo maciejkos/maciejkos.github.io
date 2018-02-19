@@ -15,7 +15,7 @@ title: My Projects
 
 <p>B.A.D. enables visualization of such body measurements as heart rate, skin temperature, galvanic skin response, number of steps, and number of calories burned. Remaining variables are self-reported measures of my affect, emotions, energy and hunger.</p>
 
-<div class="row 50% uniform">
+<!-- <div class="row 50% uniform"> -->
 <span class="image left"><img src="assets/images/bad-one.png" alt="" /></span>
 <span class="image right"><img src="assets/images/bad-two.png" alt="" /></span>
 
