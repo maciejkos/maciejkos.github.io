@@ -4,18 +4,27 @@ title: My Projects
 ---
 
 <!-- Text stuff -->
-<h2>Master</h2>
-<p>This is <b>bold</b> and this is <strong>strong</strong>. This is <i>italic</i> and this is <em>emphasized</em>.
-This is <sup>superscript</sup> text and this is <sub>subscript</sub> text.
-This is <u>underlined</u> and this is code: <code>for (;;) { ... }</code>.
-Finally, this is a <a href="#">link</a>.</p>
+<h1>IN PROGRESS</h1>
+<h2>My projects</h2>
+<p>Below you can find a couple of my recent projects. I am trying to keep this section up-to-date.</p>
 <hr />
-<h2>Heading Level 2</h2>
-<h3>Heading Level 3</h3>
-<h4>Heading Level 4</h4>
-<h5>Heading Level 5</h5>
-<h6>Heading Level 6</h6>
-<hr />
+
+<h3>Body Affect Dashboard (B.A.D.)</h3>
+<p>The goal of this project was to create an open-source exploratory tool for physiological, affect and context data.<\p>
+
+<p>B.A.D. enables visualization of such body measurements as heart rate, skin temperature, galvanic skin response, number of steps, and number of calories burned. Remaining variables are self-reported measures of my affect, emotions, energy and hunger.<br>
+
+Exploration of these data will aid in revealing relationships between human physiology (e.g., heart rate) and emotional states (e.g., anxiety). The long term goal of this project is to learn how to detect extreme emotional states from physiological data collected using unobtrusive wearable technologies. Such information would help deliver just-in-time health interventions to people with such anxiety-driven conditions as binge eating disorder.</p>
+
+<h4>Technologies used</h4>
+<ul>
+<li>HTML/CSS</li>
+<li>JavaScript</li>
+<li>d3.js</li>
+
+ADD LINKS!
+
+<hr/>
 <header>
 <h2>Heading with a Subtitle</h2>
 <p>Lorem ipsum dolor sit amet nullam id egestas urna aliquam</p>
