@@ -18,8 +18,8 @@ title: My Projects
 <!-- <div class="row 50% uniform"> -->
 <!-- <span class="image left"><img src="assets/images/bad-one.png" alt="" /></span> -->
 <!-- <span class="image right"><img src="assets/images/bad-two.png" alt="" /></span> -->
-<img src="assets/images/bad-one.png" style="float: left; width: 50%; margin-right: 1%; margin-bottom: 0.5em;">
-<img src="assets/images/bad-two.png" style="float: left; width: 50%; margin-right: 1%; margin-bottom: 0.5em;">
+<img src="assets/images/bad-one.png" style="float: left; width: 49%; margin-right: 1%; margin-bottom: 0.5em;">
+<img src="assets/images/bad-two.png" style="float: left; width: 49%; margin-right: 1%; margin-bottom: 0.5em;">
 
 <!-- </div> -->
 
