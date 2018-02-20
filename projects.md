@@ -33,6 +33,8 @@ title: My Projects
 See this <a href="https://maciejkos.github.io/Body-Affect-Dashboard/">visualization live here</a>.<br/>
 See <a href="https://github.com/maciejkos/Body-Affect-Dashboard">code on GitHub here</a>.
 
+<hr />
+
 <h3>Racial differences in birth weight</h3>
 <p>In this project <a href="https://www.linkedin.com/in/jinniluo/">Kini Luo</a> and I analyzed and visualized data of over 2 million births given in the US in 2014.</p>
 <span class="image fit"><img src="assets/images/children-main.png" alt="" /></span>
