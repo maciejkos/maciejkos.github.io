@@ -14,13 +14,9 @@ title: My Projects
 <span class="image fit"><img src="assets/images/bad-main.png" alt="" /></span>
 
 <p>B.A.D. enables visualization of such body measurements as heart rate, skin temperature, galvanic skin response, number of steps, and number of calories burned. Remaining variables are self-reported measures of my affect, emotions, energy and hunger.</p>
-<!-- <div class="box alt"> -->
-<!-- <div class="row 50% uniform"> -->
-<!-- <span class="image left"><img src="assets/images/bad-one.png" alt="" /></span> -->
-<!-- <span class="image right"><img src="assets/images/bad-two.png" alt="" /></span> -->
-<img src="assets/images/bad-one.png" style="float: left; width: 49%; margin-right: 1%; margin-bottom: 0.5em;">
-<img src="assets/images/bad-two.png" style="float: left; width: 49%; margin-right: 1%; margin-bottom: 0.5em;">
-
+<img src="assets/images/bad-one.png" border="1" style="float: left; width: 48%; margin-right: 1%; margin-bottom: 0.5em;">
+<img src="assets/images/bad-two.png" style="float: left; width: 48%; margin-right: 1%; margin-bottom: 0.5em;">
+<br/>
 <!-- </div> -->
 
 <p>Exploration of these data will aid in revealing relationships between human physiology (e.g., heart rate) and emotional states (e.g., anxiety). The long term goal of this project is to learn how to detect extreme emotional states from physiological data collected using unobtrusive wearable technologies. Such information would help deliver just-in-time health interventions to people with such anxiety-driven conditions as binge eating disorder.</p>
