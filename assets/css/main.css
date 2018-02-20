@@ -2426,9 +2426,9 @@
 		position: relative;
 	}
 
-		.image img {
+		.image.img {
 			display: block;
-      border:1px solid #021a40;
+      border:1px solid #262626;
 		}
 
 		.image.left, .image.right {
