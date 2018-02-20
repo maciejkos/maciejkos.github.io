@@ -13,7 +13,7 @@ title: My Projects
 <p>The goal of this project was to create an open-source exploratory tool for physiological, affect and context data.</p>
 <span class="image fit"><img src="assets/images/bad-main.png" alt="" /></span>
 
-<p>B.A.D. enables visualization of such body measurements as heart rate, skin temperature, galvanic skin response, number of steps, and number of calories burned. Remaining variables are self-reported measures of my affect, emotions, energy and hunger.</p>
+<p>B.A.D. enables visualization of such body measurements as heart rate, skin temperature, galvanic skin response, number of steps, and number of calories burned. Remaining variables are self-reported measures; here: affect, emotions, energy and hunger.</p>
 <span class="image img">
 <img src="assets/images/bad-one.png" style="float: left; width: 48%; margin-right: 1%; margin-bottom: 0.5em;">
 <img src="assets/images/bad-two.png" style="float: left; width: 48%; margin-right: 1%; margin-bottom: 0.5em;">
@@ -21,7 +21,7 @@ title: My Projects
 <br/>
 <!-- </div> -->
 
-<p>Exploration of these data will aid in revealing relationships between human physiology (e.g., heart rate) and emotional states (e.g., anxiety). The long term goal of this project is to learn how to detect extreme emotional states from physiological data collected using unobtrusive wearable technologies. Such information would help deliver just-in-time health interventions to people with such anxiety-driven conditions as binge eating disorder.</p>
+<p>Exploration of these data will aid in revealing relationships between human physiology (e.g., heart rate) and emotional states (e.g., anxiety). The long term goal of this project is to learn how to detect extreme emotional states from physiological data collected using unobtrusive wearable technologies. Such information would help deliver just-in-time health interventions to help people with such anxiety-driven conditions as binge eating disorder.</p>
 
 <h4>Technologies used</h4>
 <ul>
@@ -33,8 +33,25 @@ title: My Projects
 See this <a href="https://maciejkos.github.io/Body-Affect-Dashboard/">visualization live here</a>.<br/>
 See <a href="https://github.com/maciejkos/Body-Affect-Dashboard">code on GitHub here</a>.
 
+<h3>Racial differences in birth weight</h3>
+<p>In this project <a href="https://www.linkedin.com/in/jinniluo/">Kini Luo</a> and I analyzed and visualized data of over 2 million births given in the US in 2014.</p>
+<span class="image fit"><img src="assets/images/children-main.png" alt="" /></span>
 
+<p>Birth weight is a strong predictor of achievement, mental and physical health conditions. Our analysis confirmed striking racial difference in birth weight disadvantaging black newborns.</p>
+<span class="image fit"><img src="assets/images/children-two.png" alt="" /></span>
+<br/>
+<!-- </div> -->
 
+<h4>Technologies used</h4>
+<ul>
+<li>HTML/CSS</li>
+<li>JavaScript</li>
+<li>d3.js</li>
+<li>R</li>
+<br/>
+
+See this <a href="https://maciejkos.github.io/low-birthweight/">visualization live here</a>.<br/>
+See <a href="https://github.com/maciejkos/low-birthweight">code on GitHub here</a>.
 
 <!-- <a href=""></a> -->
 <hr/>
