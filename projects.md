@@ -14,7 +14,7 @@ title: My Projects
 <span class="image fit"><img src="assets/images/bad-main.png" alt="" /></span>
 
 <p>B.A.D. enables visualization of such body measurements as heart rate, skin temperature, galvanic skin response, number of steps, and number of calories burned. Remaining variables are self-reported measures of my affect, emotions, energy and hunger.</p>
-<img src="assets/images/bad-one.png" border="1" style="float: left; width: 48%; margin-right: 1%; margin-bottom: 0.5em;">
+<img src="assets/images/bad-one.png" border="5" style="float: left; width: 48%; margin-right: 1%; margin-bottom: 0.5em;">
 <img src="assets/images/bad-two.png" style="float: left; width: 48%; margin-right: 1%; margin-bottom: 0.5em;">
 <br/>
 <!-- </div> -->
