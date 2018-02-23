@@ -68,10 +68,8 @@ See <a href="https://github.com/maciejkos/low-birthweight">code on GitHub here</
 
 <h4>Technologies used</h4>
 <ul>
-<li>HTML/CSS</li>
-<li>JavaScript</li>
-<li>d3.js</li>
 <li>R</li>
+<li>Tableau</li>
 <br/>
 
 Information about the algorithm was presented at the following conferences:
