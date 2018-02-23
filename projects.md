@@ -72,8 +72,10 @@ See <a href="https://github.com/maciejkos/low-birthweight">code on GitHub here</
 <li>Tableau</li>
 <br/>
 
-Information about the algorithm was presented at the following conferences:
-
+<h4>Information about the algorithm was presented at the following conferences:</h4>
+- The 39th Annual International Conference of the IEEE Engineering in Medicine and Biology Society (EMBC’17) <br/>
+- American Medical Informatics Association Annual Symposium 2017
+<br/>
 See <a href="https://maciejkos.github.io//assets/documents/AMIA2017-poster-final-mkos.pdf" class="logo">my AMIA poster here.</a>
 
 
