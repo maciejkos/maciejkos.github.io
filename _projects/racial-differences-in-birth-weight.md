@@ -11,7 +11,7 @@ title: Birth weight
 <span class="image fit"><img src="../assets/images/children-main.png" alt="" /></span>
 
 <p>Birth weight is a strong predictor of achievement, mental and physical health conditions. Our analysis confirmed striking racial difference in birth weight disadvantaging black newborns.</p>
-<span class="image fit"><img src="/../assets/images/children-two.png" alt="" /></span>
+<span class="image fit"><img src="../assets/images/children-two.png" alt="" /></span>
 <br/>
 <!-- </div> -->
 
