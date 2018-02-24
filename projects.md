@@ -9,6 +9,14 @@ title: My Projects
 <p>Below you can find a couple of my recent projects. I am trying to keep this section up-to-date. </p>
 <hr />
 
+<h3>Technologies used</h3>
+<ul>
+<li><a href="https://maciejkos.github.io/projects-body-affect-dashboard.html">Body Affect Dashboard</a> | Keywords: data visualization, wearables, d3.js, physiological data, emotions, quantified-self </li>
+<li><a href="https://maciejkos.github.io/projects-racial-differences-in-birth-weight.html">Racial differences in birth weight</a> | Keywords: data visualization, d3.js, public health, data mining</li>
+<li><a href="https://maciejkos.github.io/projects-heart-rate-data-cleaning-algorithm-for-wearables.html">Heart rate data cleaning algorithm for wearables</a> | Keywords: algorithm development, data mining</li>
+<li><a href="https://maciejkos.github.io/projects-evidence-based-treatment-for-alexithymia-using-wearables.html">Evidence-based treatment for alexithymia using wearables</a> | Keywords: UX/UI design, algorithm development, neuroscience, wearables</li>
+<br/>
+
 <h3>Body Affect Dashboard (B.A.D.)</h3>
 <p>The goal of this project was to create an open-source exploratory tool for physiological, affect and context data.</p>
 <span class="image fit"><img src="assets/images/bad-main.png" alt="" /></span>
@@ -65,6 +73,33 @@ See <a href="https://github.com/maciejkos/low-birthweight">code on GitHub here</
 <span class="image fit"><img src="assets/images/algo-two.png" alt="" /></span>
 <br/>
 <!-- </div> -->
+<h4>Technologies used</h4>
+<ul>
+<li>R</li>
+<li>Tableau</li>
+<br/>
+
+<h4>Information about the algorithm was presented at the following conferences:</h4>
+<ul>
+<li> The 39th Annual International Conference of the IEEE Engineering in Medicine and Biology Society (EMBC’17) </li>
+<li> American Medical Informatics Association Annual Symposium 2017</li>
+<br/>
+<br/>
+See <a href="https://maciejkos.github.io//assets/documents/AMIA2017-poster-final-mkos.pdf" class="logo">my AMIA poster here.</a>
+
+<hr />
+
+<h3>Evidence-based treatment for alexithymia using wearables</h3>
+<p>Alexithymia is the inability to identify, recognize, describe emotions and distinguish between feelings and physical manifestations of emotional arousal. Approximately, <b>13.5%</b> of general population and nearly <b>30% of older adults</b> suffer from alexithymia. Currently, there exist no evidence-based treatment for this condition.
+</p>
+
+<p><a href="https://www.ccis.northeastern.edu/people/stefan-olaffson/">Stefán Ólafsson</a> and I decided to design a working prototype which helps stimulate brain's anterior insular cortex by asking patients simple questions throughout the day. Insufficient development of this brain area is hypothesized to cause alexithymia.</p>
+<span class="image fit"><img src="assets/images/algo-main.png" alt="" /></span>
+
+<p>Our algorithm improves data quality (concordance correlation coefficient) by 14.4% outperforming Microsoft's solution. One unique feature of the algorithm is its ability to remove motion artifacts without accessing any motion data.</p>
+<span class="image fit"><img src="assets/images/algo-two.png" alt="" /></span>
+<br/>
+<!-- </div> -->
 
 <h4>Technologies used</h4>
 <ul>
@@ -77,7 +112,6 @@ See <a href="https://github.com/maciejkos/low-birthweight">code on GitHub here</
 - American Medical Informatics Association Annual Symposium 2017
 <br/>
 See <a href="https://maciejkos.github.io//assets/documents/AMIA2017-poster-final-mkos.pdf" class="logo">my AMIA poster here.</a>
-
 
 <!-- <a href=""></a> -->
 <hr/>
