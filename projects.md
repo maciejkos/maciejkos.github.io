@@ -17,3 +17,5 @@ title: My Projects
 <li><a href="https://maciejkos.github.io/2018/01/01/evidence-based-treatment-for-alexithymia-using-wearables.html">Evidence-based treatment for alexithymia using wearables</a> | UX/UI design, algorithm development, neuroscience, wearables</li>
 <br/>
 <hr />
+
+  {% include footer.html %}
