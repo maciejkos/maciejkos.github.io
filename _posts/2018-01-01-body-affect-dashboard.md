@@ -12,8 +12,8 @@ title: Body Affect Dashboard
 
 <p>B.A.D. enables visualization of such body measurements as heart rate, skin temperature, galvanic skin response, number of steps, and number of calories burned. Remaining variables are self-reported measures; here: affect, emotions, energy and hunger.</p>
 <span class="image img">
-<img src="assets/images/bad-one.png" style="float: left; width: 48%; margin-right: 1%; margin-bottom: 0.5em;">
-<img src="assets/images/bad-two.png" style="float: left; width: 48%; margin-right: 1%; margin-bottom: 0.5em;">
+<img src="../../../assets/images/bad-one.png" style="float: left; width: 48%; margin-right: 1%; margin-bottom: 0.5em;">
+<img src="../../../assets/images/bad-two.png" style="float: left; width: 48%; margin-right: 1%; margin-bottom: 0.5em;">
 </span>
 <br/>
 <!-- </div> -->

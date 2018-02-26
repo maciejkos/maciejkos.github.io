@@ -11,10 +11,10 @@ title: Alexithymia and wearables
 </p>
 
 <p><a href="https://www.ccis.northeastern.edu/people/stefan-olaffson/">Stefán Ólafsson</a> and I decided to design a working prototype which helps stimulate brain's anterior insular cortex by asking patients simple questions throughout the day. Insufficient development of this brain area is hypothesized to cause alexithymia.</p>
-<span class="image fit"><img src="assets/images/algo-main.png" alt="" /></span>
+<span class="image fit"><img src="../../../assets/images/algo-main.png" alt="" /></span>
 
 <p>Our algorithm improves data quality (concordance correlation coefficient) by 14.4% outperforming Microsoft's solution. One unique feature of the algorithm is its ability to remove motion artifacts without accessing any motion data.</p>
-<span class="image fit"><img src="assets/images/algo-two.png" alt="" /></span>
+<span class="image fit"><img src="../../../assets/images/algo-two.png" alt="" /></span>
 <br/>
 <!-- </div> -->
 
