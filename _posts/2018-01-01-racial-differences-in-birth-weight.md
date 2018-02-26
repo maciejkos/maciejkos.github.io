@@ -12,7 +12,6 @@ title: Birth weight
 
 <p>Birth weight is a strong predictor of achievement, mental and physical health conditions. Our analysis confirmed striking racial difference in birth weight disadvantaging black newborns.</p>
 <span class="image fit"><img src="assets/images/children-two.png" alt="" /></span>
-<br/>
 <!-- </div> -->
 
 <h4>Technologies used:</h4>
@@ -22,7 +21,6 @@ title: Birth weight
 <li>d3.js</li>
 <li>R</li>
 </ul>
-<br/>
 
 See this <a href="https://maciejkos.github.io/low-birthweight/">visualization live here</a>.<br/>
 See <a href="https://github.com/maciejkos/low-birthweight">code on GitHub here</a>.

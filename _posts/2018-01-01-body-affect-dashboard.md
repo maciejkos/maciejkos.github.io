@@ -26,7 +26,6 @@ title: Body Affect Dashboard
 <li>JavaScript</li>
 <li>d3.js</li>
 </ul>
-<br/>
 
 See this <a href="https://maciejkos.github.io/Body-Affect-Dashboard/">visualization live here</a>.<br/>
 See <a href="https://github.com/maciejkos/Body-Affect-Dashboard">code on GitHub here</a>.
