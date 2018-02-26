@@ -13,8 +13,8 @@ title: Alexithymia and wearables
 <p><a href="https://www.ccis.northeastern.edu/people/stefan-olaffson/">Stefán Ólafsson</a> and I decided to design a working prototype which helps stimulate brain's anterior insular cortex by asking patients simple questions throughout the day. Insufficient development of this brain area is hypothesized to cause alexithymia.</p>
 <span class="image fit"><img src="../../../assets/images/alx-one.png" alt="" /></span>
 
-<span class="image fit"><img src="../../../assets/images/alx-two.png" alt="" /></span> -->
-<!-- </div> -->
+<span class="image fit"><img src="../../../assets/images/alx-two.png" alt="" /></span>
+
 <p><i>More text to come.</i></p>
 
 <h4>Technologies used:</h4>
