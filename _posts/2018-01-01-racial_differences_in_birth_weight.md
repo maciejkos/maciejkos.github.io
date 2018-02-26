@@ -25,5 +25,3 @@ title: Birth weight
 
 See this <a href="https://maciejkos.github.io/low-birthweight/">visualization live here</a>.<br/>
 See <a href="https://github.com/maciejkos/low-birthweight">code on GitHub here</a>.
-
-<hr />

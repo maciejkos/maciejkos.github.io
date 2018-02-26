@@ -29,7 +29,3 @@ title: Body Affect Dashboard
 
 See this <a href="https://maciejkos.github.io/Body-Affect-Dashboard/">visualization live here</a>.<br/>
 See <a href="https://github.com/maciejkos/Body-Affect-Dashboard">code on GitHub here</a>.
-
-<hr />
-
-  {% include footer.html %}

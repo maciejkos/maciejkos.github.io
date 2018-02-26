@@ -26,5 +26,3 @@ title: Heart rate algorithm
 </ul>
 
 See <a href="https://maciejkos.github.io//assets/documents/AMIA2017-poster-final-mkos-web.pdf" class="logo">my AMIA poster here.</a>
-
-<hr />

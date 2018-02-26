@@ -10,5 +10,3 @@ title: My Resume
 <li><a href="https://maciejkos.github.io//assets/documents/Maciej_Kos_cv_2018.pdf">My CV [PDF]</a></li>
 <li><a href="https://www.linkedin.com/in/maciejkos/">My LinkedIn</a></li>
 </ul>
-
-  {% include footer.html %}
