@@ -10,7 +10,7 @@ title: Heart rate algorithm
 <p>My <a href="https://www.ccis.northeastern.edu/people/misha-pavel/">PhD advisor</a> and I developed and evaluated a novel algorithm for cleaning heart rate data captured by wearable devices.</p>
 <span class="image fit"><img src="../../../assets/images/algo-main.png" alt="" /></span>
 
-<p>Our algorithm improves data quality (concordance correlation coefficient) by 14.4% outperforming Microsoft's solution. One unique feature of the algorithm is its ability to remove motion artifacts without accessing any motion data.</p>
+<p>Our algorithm improves data quality (concordance correlation coefficient) by 14.4% <b>outperforming Microsoft's solution</b>. One unique feature of the algorithm is its ability to remove motion artifacts without accessing any motion data.</p>
 <span class="image fit"><img src="../../../assets/images/algo-two.png" alt="" /></span>
 <!-- </div> -->
 <h4>Technologies used:</h4>
