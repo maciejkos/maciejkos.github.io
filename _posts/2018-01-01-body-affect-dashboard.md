@@ -8,7 +8,7 @@ title: Body Affect Dashboard
 
 <h3>Body Affect Dashboard (B.A.D.)</h3>
 <p>The goal of this project was to create an open-source exploratory tool for physiological, affect and context data.</p>
-<span class="image fit"><img src="assets/images/bad-main.png" alt="" /></span>
+<span class="image fit"><img src="../../../assets/images/bad-main.png" alt="" /></span>
 
 <p>B.A.D. enables visualization of such body measurements as heart rate, skin temperature, galvanic skin response, number of steps, and number of calories burned. Remaining variables are self-reported measures; here: affect, emotions, energy and hunger.</p>
 <span class="image img">
@@ -20,11 +20,12 @@ title: Body Affect Dashboard
 
 <p>Exploration of these data will aid in revealing relationships between human physiology (e.g., heart rate) and emotional states (e.g., anxiety). The long term goal of this project is to learn how to detect extreme emotional states from physiological data collected using unobtrusive wearable technologies. Such information would help deliver just-in-time health interventions to help people with such anxiety-driven conditions as binge eating disorder.</p>
 
-<h4>Technologies used</h4>
+<h4>Technologies used:</h4>
 <ul>
 <li>HTML/CSS</li>
 <li>JavaScript</li>
 <li>d3.js</li>
+</ul>
 <br/>
 
 See this <a href="https://maciejkos.github.io/Body-Affect-Dashboard/">visualization live here</a>.<br/>

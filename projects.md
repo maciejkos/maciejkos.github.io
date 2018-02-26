@@ -6,7 +6,7 @@ title: My Projects
 <!-- Text stuff -->
 <!-- <h1>IN PROGRESS</h1> -->
 <h2>My projects</h2>
-<p>Below you can find a couple of my recent projects. I am trying to keep this section up-to-date. </p>
+<p>Below you can find a couple of my recent projects. This section is far from complete and is still work-in-progress. </p>
 
 
 

@@ -18,10 +18,11 @@ title: Alexithymia and wearables
 <br/>
 <!-- </div> -->
 
-<h4>Technologies used</h4>
+<h4>Technologies used:</h4>
 <ul>
 <li>R</li>
 <li>Tableau</li>
+</ul>
 <br/>
 
 <h4>Information about the algorithm was presented at the following conferences:</h4>

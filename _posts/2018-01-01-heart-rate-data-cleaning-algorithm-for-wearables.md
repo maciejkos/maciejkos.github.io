@@ -14,16 +14,18 @@ title: Heart rate algorithm
 <span class="image fit"><img src="../../../assets/images/algo-two.png" alt="" /></span>
 <br/>
 <!-- </div> -->
-<h4>Technologies used</h4>
+<h4>Technologies used:</h4>
 <ul>
 <li>R</li>
 <li>Tableau</li>
 <br/>
+</ul>
 
 <h4>Information about the algorithm was presented at the following conferences:</h4>
 <ul>
 <li> The 39th Annual International Conference of the IEEE Engineering in Medicine and Biology Society (EMBC’17) </li>
 <li> American Medical Informatics Association Annual Symposium 2017</li>
+</ul>
 <br/>
 <br/>
 See <a href="https://maciejkos.github.io//assets/documents/AMIA2017-poster-final-mkos.pdf" class="logo">my AMIA poster here.</a>

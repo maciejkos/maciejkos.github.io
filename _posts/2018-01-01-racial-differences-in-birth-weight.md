@@ -15,12 +15,13 @@ title: Birth weight
 <br/>
 <!-- </div> -->
 
-<h4>Technologies used</h4>
+<h4>Technologies used:</h4>
 <ul>
 <li>HTML/CSS</li>
 <li>JavaScript</li>
 <li>d3.js</li>
 <li>R</li>
+</ul>
 <br/>
 
 See this <a href="https://maciejkos.github.io/low-birthweight/">visualization live here</a>.<br/>
