@@ -24,7 +24,7 @@ and [creating pages](https://jekyllrb.com/docs/pages/).
 Original README from HTML5 UP:
 
 ```
-Massively by HTML5 UP
+Base template is Massively by HTML5 UP with modifications by Maciej Kos
 html5up.net | @ajlkn
 Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 
