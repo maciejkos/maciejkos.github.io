@@ -8,7 +8,15 @@ title: Publications
 
 <ul>
 <strong>2018</strong>
-<header><li><p>Kos M., Ponnada A., Pavel M., Intille S. (2018). Evidence That Microinteraction Ecological Momentary Assessment (µEMA) is a Non-Reactive In-Situ Affect Assessment Method (poster abstract under review)</p></li></header>
+
+<header><li>
+<h4>Evidence That Microinteraction Ecological Momentary Assessment (µEMA) is a Non-Reactive In-Situ Affect Assessment Method</h4>
+<p>Kos M., Ponnada A., Pavel M., Intille S. (2018). Evidence That Microinteraction Ecological Momentary Assessment (µEMA) is a Non-Reactive In-Situ Affect Assessment Method (poster abstract under review)</p></li></header>
+
+<li><header>
+<h4>Evidence That Microinteraction Ecological Momentary Assessment (µEMA) is a Non-Reactive In-Situ Affect Assessment Method</h4>
+<p>Kos M., Ponnada A., Pavel M., Intille S. (2018). Evidence That Microinteraction Ecological Momentary Assessment (µEMA) is a Non-Reactive In-Situ Affect Assessment Method (poster abstract under review)</p></header></li>
+
 <header><li><p>Pavel M., Li X., <strong>Kos M.</strong>, Khaghani-Far I., Gordon C., Jimison H., Williams H. (2018). Improving Individuals’ Behavior and State Estimates with Model-Based Data Science and Sensor Fusion. Panel discussion at the 40th Annual International Conference of the IEEE Engineering in Medicine and Biology Society, Hawaii</p></li></header>
 <header><li><p>Rampersad S., Orhan K., <strong>Kos M.</strong>, Mansfield K., Marghi Y. M., Sheffield J., Dillard M., Erdogmus D., Pascual-Leone A., Yeung N., Mathan S., Cohen K. R., Pavel M. (2018). Effects of EEG-Based Closed-Loop Transcranial Alternating Current Stimulation on Theta Power during a Cognitive Task. Poster presentation at the 40th Annual International Conference of the IEEE Engineering in Medicine and Biology Society, Hawaii</p></li></header>
 <header><li><p>Khaghani-Far I., Li X., <strong>Kos M.</strong>, Gordon C., Williams H., Pavel M., Jimison H. (2018). NUCoach: A Modular Coaching Platform for Health and Data Scientists  Paper presentation at the 40th Annual International Conference of the IEEE Engineering in Medicine and Biology Society, Hawaii</p></li></header>
