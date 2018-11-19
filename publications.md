@@ -12,7 +12,7 @@ title: Publications
 
 	<li><header>
 		<h4>Evidence That Microinteraction Ecological Momentary Assessment (µEMA) is a Non-Reactive In-Situ Affect Assessment Method</h4>
-		<p<strong>>Kos M.</strong>, Ponnada A., Pavel M., Intille S. (2018). Evidence That Microinteraction Ecological Momentary Assessment (µEMA) is a Non-Reactive In-Situ Affect Assessment Method (poster abstract under review)</p></header></li>
+		<p><strong>Kos M.</strong>, Ponnada A., Pavel M., Intille S. (2018). Evidence That Microinteraction Ecological Momentary Assessment (µEMA) is a Non-Reactive In-Situ Affect Assessment Method (poster abstract under review)</p></header></li>
 
 		<li><header><h4>
 Improving Individuals’ Behavior and State Estimates with Model-Based Data Science and Sensor Fusion
