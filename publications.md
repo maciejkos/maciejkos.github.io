@@ -12,7 +12,7 @@ title: Publications
 
 	<li><header>
 		<h4>Evidence That Microinteraction Ecological Momentary Assessment (µEMA) is a Non-Reactive In-Situ Affect Assessment Method</h4>
-		<p>Kos M., Ponnada A., Pavel M., Intille S. (2018). Evidence That Microinteraction Ecological Momentary Assessment (µEMA) is a Non-Reactive In-Situ Affect Assessment Method (poster abstract under review)</p></header></li>
+		<p<strong>>Kos M.</strong>, Ponnada A., Pavel M., Intille S. (2018). Evidence That Microinteraction Ecological Momentary Assessment (µEMA) is a Non-Reactive In-Situ Affect Assessment Method (poster abstract under review)</p></header></li>
 
 		<li><header><h4>
 Improving Individuals’ Behavior and State Estimates with Model-Based Data Science and Sensor Fusion
@@ -41,7 +41,7 @@ Can accelerometry data improve estimates of heart rate variability from wrist PP
 			</h4><p><strong>Kos M.</strong>, Li X., Khaghani-Far I., Gordon C., Pavel M., Jimison H. (2017). Can accelerometry data improve estimates of heart rate variability from wrist PPG sensors?  Paper presentation at the 39th Annual International Conference of the IEEE Engineering in Medicine and Biology Society, South Korea</p></header></li>
 
 		<li><header><h4>
-
+Training Executive Functions through Rapidly-Changing Task Contexts and an Individualized Difficulty Progression
 			</h4><p>McKanna J., Plessow F., Dillard M., Kimball G., Norton-Ford Almquist J., <strong>Kos M.</strong>, Yeung N., Mathan S., Pavel M. (2017). Training Executive Functions through Rapidly-Changing Task Contexts and an Individualized Difficulty Progression (paper under review)</p></header></li>
 
 		<li><header><h4>
