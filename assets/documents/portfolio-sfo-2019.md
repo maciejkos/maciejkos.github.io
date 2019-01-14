@@ -1,6 +1,6 @@
 ---
 layout: page
-title: My portfolio
+title:
 ---
 
 <!-- Text stuff -->
