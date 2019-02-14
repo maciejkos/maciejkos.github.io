@@ -24,15 +24,15 @@ My advisor, Professor Misha Pavel, and I believe that health informaticians need
 </p></li>
 <li><b>The name and title of the faculty examiner, and why that individual was selected</b>:
 <ul>
-<li>**Name**:Holly B. Jimison</li>
-<li><i>**Title**:Professor of the Practice, Khoury College of Computer Sciences and Bouvé College of Health Science, Northeastern University</li>
-<li><i>**Justification**:Professor Jimison has made significant and sustained contributions to the field of biomedical informatics in the areas of pattern recognition, decision support, and health informatics. Professor Jimison published multiple papers on modeling cognitive impairment and cognitive training. Furthermore, she is an expert in developing algorithms that utilize large amounts of sensor data to infer clinically relevant variables. I believe Professor Jimison’s expertise highly qualifies her to review the quality of my technical exam.</li>
+<li><i>Name</i>:Holly B. Jimison</li>
+<li><i>Title</i>:Professor of the Practice, Khoury College of Computer Sciences and Bouvé College of Health Science, Northeastern University</li>
+<li><i>Justification</i>:Professor Jimison has made significant and sustained contributions to the field of biomedical informatics in the areas of pattern recognition, decision support, and health informatics. Professor Jimison published multiple papers on modeling cognitive impairment and cognitive training. Furthermore, she is an expert in developing algorithms that utilize large amounts of sensor data to infer clinically relevant variables. I believe Professor Jimison’s expertise highly qualifies her to review the quality of my technical exam.</li>
 </ul>
 </li>
 <li><b>A description of how the exam was structured, and why (e.g., literature review)</b>:
 <p>
 The exam took the form of a literature review (as per the recommendation in the PHI doctoral handbook) augmented by interviews with stakeholders and relevant experts as well as a data analytics component. Consistent with Northeastern University’s emphasis on experiential learning, the exam’s requirements were developed and evaluation performed in collaboration with an industry partner during my internship at Philips Healthcare Research. To ensure the exam met the criteria of the qualifying exam, the criteria were agreed upon by dr. Daniel Schulman (Senior Scientist at Philips Healthcare Research), Professor Pavel (my advisor), and Professor Jimison. Dr. Schulman and Professor Jimison provided feedback on the document which I continuously implemented.
 </p> </li>
-<li><b>A link to the work product produced</b>: <a href="https://mkos.pl/assets/documents/technical_component_mkos.pdf"> LINK</a></li></li>
+<li><b>A link to the work product produced</b>: <a href="https://mkos.pl/assets/documents/technical_component_mkos.pdf"> LINK</a></li>
 <li><b>The date when the exam was completed</b>:02/09/2019</li>
 </ol>

@@ -13,13 +13,13 @@ title: Health component
 <p>As cognitive impairment is becoming the key public health change we need new scalable health management strategies and ways for evaluating behavioral and pharmacological interventions; this necessities development of novel ecologically valid cognitive assessment methods. Understanding of the degree to which motor function parameters can be relied upon in this context will inform whether we can use unobtrusive motor function sensors (e.g., accelerometers) to create technologies for passively assessing cognitive function over time.</p></li>
 <li><b>The name and title of the faculty examiner, and why that individual was selected</b>:
 <ul>
-<li>**Name**:Jane Saczynski</li>
-<li><i>**Title**:Associate Professor, Department of Pharmacy and Health Systems Sciences, School of Pharmacy, Northeastern University</li>
-<li><i>**Justification**:Professor Saczynski is a well-published expert in the areas of cognitive function, dementia and delirium with training in Psychiatric Epidemiology at the Johns Hopkins Bloomberg School of Public Health and Neuro-Epidemiology at the National Institute on Aging. She published multiple papers on the assessment of cognitive function including studies which used motor parameters in estimating the degree of impairment. Professor Saczynski was, therefore, highly qualified to properly evaluate my exam.</li>
+<li><i>Name</i>:Jane Saczynski</li>
+<li><i>Title</i>:Associate Professor, Department of Pharmacy and Health Systems Sciences, School of Pharmacy, Northeastern University</li>
+<li><i>Justification</i>:Professor Saczynski is a well-published expert in the areas of cognitive function, dementia and delirium with training in Psychiatric Epidemiology at the Johns Hopkins Bloomberg School of Public Health and Neuro-Epidemiology at the National Institute on Aging. She published multiple papers on the assessment of cognitive function including studies which used motor parameters in estimating the degree of impairment. Professor Saczynski was, therefore, highly qualified to properly evaluate my exam.</li>
 </ul>
 </li>
 <li><b>A description of how the exam was structured, and why (e.g., literature review)</b>:
 <p>The exam took the form of a systematic literature review as per the recommendation in the PHI doctoral handbook. I participated in Professor Saczynski’s class “PHTH 6450: Systematic Reviews of Scientific Literature” where I submitted and subsequently revised sections of the review as class assignments. To ensure the review meet the criteria of the qualifying exam, I discussed the criteria with Professor Saczynski who agreed to apply them to my class requirements and to become a reader officially. Furthermore, the research questions to be answered in the review were mutually agreed upon by both Professor Saczynski and Professor Pavel (my advisor). Professor Saczynski provided feedback on the document during the class and my individual meetings with her.</p></li>
-<li><b>A link to the work product produced</b>: <a href="https://mkos.pl/assets/documents/health_component_mkos.pdf"> LINK</a></li></li>
+<li><b>A link to the work product produced</b>: <a href="https://mkos.pl/assets/documents/health_component_mkos.pdf">LINK</a></li>
 <li><b>The date when the exam was completed</b>:12/20/2017</li>
 </ol>
