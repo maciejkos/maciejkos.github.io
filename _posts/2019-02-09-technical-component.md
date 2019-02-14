@@ -33,6 +33,6 @@ My advisor, Professor Misha Pavel, and I believe that health informaticians need
 <p>
 The exam took the form of a literature review (as per the recommendation in the PHI doctoral handbook) augmented by interviews with stakeholders and relevant experts as well as a data analytics component. Consistent with Northeastern University’s emphasis on experiential learning, the exam’s requirements were developed and evaluation performed in collaboration with an industry partner during my internship at Philips Healthcare Research. To ensure the exam met the criteria of the qualifying exam, the criteria were agreed upon by dr. Daniel Schulman (Senior Scientist at Philips Healthcare Research), Professor Pavel (my advisor), and Professor Jimison. Dr. Schulman and Professor Jimison provided feedback on the document which I continuously implemented.
 </p> </li>
-<li><b>A link to the work product produced</b>: <a href="https://mkos.pl/assets/documents/technical_component_mkos.pdf"> LINK</a></li>
+<li><b>A link to the work product produced</b>: <a href="https://mkos.pl/assets/documents/technical_component_mkos.pdf">LINK</a></li>
 <li><b>The date when the exam was completed</b>:02/09/2019</li>
 </ol>
