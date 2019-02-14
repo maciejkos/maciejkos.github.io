@@ -19,7 +19,7 @@ title: Health component
 </ul>
 </li>
 <li><b>A description of how the exam was structured, and why (e.g., literature review)</b>:
-<p>The exam took the form of a systematic literature review as per the recommendation in the PHI doctoral handbook. I participated in Professor Saczynski’s class “PHTH 6450: Systematic Reviews of Scientific Literature” where I submitted and subsequently revised sections of the review as class assignments. To ensure the review met the criteria of the qualifying exam, the research questions to be answered in the review were mutually agreed upon by both Professor Saczynski and Professor Pavel (my advisor). Professor Saczynski provided feedback on the document during the class and my individual meetings with her. She also officially reviewed the exam.</p></li>
+<p>The exam took the form of a systematic literature review as per the recommendation in the PHI doctoral handbook. I participated in Professor Saczynski’s class “PHTH 6450: Systematic Reviews of Scientific Literature” where I submitted and subsequently revised sections of the review as class assignments. To ensure the review met the criteria of the qualifying exam, the research questions to be answered in the review were mutually agreed upon by both Professor Saczynski and Professor Pavel (my advisor). Professor Saczynski provided feedback on the document during the class and my individual meetings with her.</p></li>
 <li><b>A link to the work product produced</b>: <a href="https://mkos.pl/assets/documents/health_component_mkos.pdf">LINK</a></li>
 <li><b>The date when the exam was completed</b>:12/20/2017</li>
 </ol>
