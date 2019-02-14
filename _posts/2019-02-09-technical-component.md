@@ -24,9 +24,9 @@ My advisor, Professor Misha Pavel, and I believe that health informaticians need
 </p></li>
 <li><b>The name and title of the faculty examiner, and why that individual was selected</b>:
 <ul>
-<li><i>Name</i>:Holly B. Jimison</li>
-<li><i>Title</i>:Professor of the Practice, Khoury College of Computer Sciences and Bouvé College of Health Science, Northeastern University</li>
-<li><i>Justification</i>:Professor Jimison has made significant and sustained contributions to the field of biomedical informatics in the areas of pattern recognition, decision support, and health informatics. Professor Jimison published multiple papers on modeling cognitive impairment and cognitive training. Furthermore, she is an expert in developing algorithms that utilize large amounts of sensor data to infer clinically relevant variables. I believe Professor Jimison’s expertise highly qualifies her to review the quality of my technical exam.</li>
+<li><i>Name</i>: Holly B. Jimison</li>
+<li><i>Title</i>: Professor of the Practice, Khoury College of Computer Sciences and Bouvé College of Health Science, Northeastern University</li>
+<li><i>Justification</i>: Professor Jimison has made significant and sustained contributions to the field of biomedical informatics in the areas of pattern recognition, decision support, and health informatics. Professor Jimison published multiple papers on modeling cognitive impairment and cognitive training. Furthermore, she is an expert in developing algorithms that utilize large amounts of sensor data to infer clinically relevant variables. I believe Professor Jimison’s expertise highly qualifies her to review the quality of my technical exam.</li>
 </ul>
 </li>
 <li><b>A description of how the exam was structured, and why (e.g., literature review)</b>:
