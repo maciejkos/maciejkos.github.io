@@ -7,8 +7,21 @@ title: Publications
 <p>RECENT ACADEMIC PAPERS AND PRESENTATIONS (PEER-REVIEWED)</p>
 
 <ul>
-	<strong>2018</strong>
 
+  <strong>2019</strong>
+	<li><header>
+		<h4>How to Validate Heart Rate Monitoring Wearables for Just-in-Time Adaptive Health Interventions? Development of Comparison Testing Guidelines</h4>
+		<p><strong>Kos M.</strong>, , Pavel M., Jimison H. (2019). How to Validate Heart Rate Monitoring Wearables for Just-in-Time Adaptive Health Interventions? Development of Comparison Testing Guidelines. Accepted for poster presentation at the Annual American Medical Informatics Association Symposium, Washington, DC </p></header></li>
+
+		<li><header>
+			<h4>NUCoach: A Customizable Coaching Platform for Designing Rehabilitation Mobile Apps</h4>
+			<p>Khaghani-Far, I., Li, X., <strong>Kos M.</strong>, Gordon, C. M., Williams, H., Pavel, M., & Jimison, H. B. (2019). NUCoach: A Customizable Coaching Platform for Designing Rehabilitation Mobile Apps. Archives of Physical Medicine and Rehabilitation, 100(7), e2.</p></header></li>
+
+			<li><header>
+				<h4>Computational methods for understanding cognitive density preferences</h4>
+				<p><strong>Kos M.</strong>, Yew J. (2019) Computational methods for understanding cognitive density preferences; foundations for adaptive user experiences, Google Ph.D. Intern Research Conference, Mountain View, CA</p></header></li>
+
+	<strong>2018</strong>
 
 	<li><header>
 		<h4>Evidence That Microinteraction Ecological Momentary Assessment (µEMA) is a Non-Reactive In-Situ Affect Assessment Method</h4>
