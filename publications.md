@@ -11,7 +11,7 @@ title: Publications
   <strong>2019</strong>
 	<li><header>
 		<h4>How to Validate Heart Rate Monitoring Wearables for Just-in-Time Adaptive Health Interventions? Development of Comparison Testing Guidelines</h4>
-		<p><strong>Kos M.</strong>, , Pavel M., Jimison H. (2019). How to Validate Heart Rate Monitoring Wearables for Just-in-Time Adaptive Health Interventions? Development of Comparison Testing Guidelines. Accepted for poster presentation at the Annual American Medical Informatics Association Symposium, Washington, DC </p></header></li>
+		<p><strong>Kos M.</strong>, Pavel M., Jimison H. (2019). How to Validate Heart Rate Monitoring Wearables for Just-in-Time Adaptive Health Interventions? Development of Comparison Testing Guidelines. Poster presentation at the Annual American Medical Informatics Association Symposium, Washington, DC </p></header></li>
 
 		<li><header>
 			<h4>NUCoach: A Customizable Coaching Platform for Designing Rehabilitation Mobile Apps</h4>
@@ -25,7 +25,7 @@ title: Publications
 
 	<li><header>
 		<h4>Evidence That Microinteraction Ecological Momentary Assessment (µEMA) is a Non-Reactive In-Situ Affect Assessment Method</h4>
-		<p><strong>Kos M.</strong>, Ponnada A., Pavel M., Intille S. (2018). Evidence That Microinteraction Ecological Momentary Assessment (µEMA) is a Non-Reactive In-Situ Affect Assessment Method (poster to be presented at the 2019 Society for Affective Science (SAS) Annual Conference in Boston)</p></header></li>
+		<p><strong>Kos M.</strong>, Ponnada A., Pavel M., Intille S. (2019). Evidence That Microinteraction Ecological Momentary Assessment (µEMA) is a Non-Reactive In-Situ Affect Assessment Method (poster to be presented at the 2019 Society for Affective Science (SAS) Annual Conference in Boston)</p></header></li>
 
 		<li><header><h4>
 Improving Individuals’ Behavior and State Estimates with Model-Based Data Science and Sensor Fusion
