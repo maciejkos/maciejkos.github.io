@@ -8,7 +8,7 @@ title: Birth weight
 
 <h3>Racial differences in birth weight</h3>
 <p>In this project <a href="https://www.linkedin.com/in/jinniluo/">Kini Luo</a> and I analyzed and visualized data of over 2 million births given in the US in 2014.</p>
-<span class="image fit"><img src="../../../assets/images/children-main.png" alt="" /></span>
+<span class="image fit"><img src="../../../assets/images/race_1_crop.gif" alt="Animation of two histograms comparing weight of black and white newborns" /></span>
 
 <p>Birth weight is a strong predictor of achievement, mental and physical health conditions. Our analysis confirmed the existence of <b>striking racial differences in birth weight</b> disadvantaging black newborns.</p>
 <span class="image fit"><img src="../../../assets/images/children-two.png" alt="" /></span>
