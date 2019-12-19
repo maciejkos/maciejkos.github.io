@@ -42,10 +42,6 @@ NUCoach: A Modular Coaching Platform for Health and Data Scientists
 		<strong>2017</strong>
 
 		<li><header><h4>
- Continuous Unobtrusive Stress Sensing using Low-cost Electrodermal Activity Sensor and Vocal Affect Recording
-			</h4><p>Li X., <strong>Kos M.</strong>, Navarjun G., Khaghani-Far I., Gordon C., Pavel M., Jimison H. (2017). Continuous Unobtrusive Stress Sensing using Low-cost Electrodermal Activity Sensor and Vocal Affect Recording (paper under review)</p></header></li>
-
-		<li><header><h4>
 The Accuracy of Monitoring Stress from Wearable Devices
 			</h4><p><strong>Kos M.</strong>, Gordon C., Li X., Khaghani-Far I., Pavel M., Jimison H. (2017). The Accuracy of Monitoring Stress from Wearable Devices. Poster presentation at the Annual American Medical Informatics Association Symposium, Washington, DC</p></header></li>
 
