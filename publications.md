@@ -11,7 +11,7 @@ title: Publications
   <strong>2020</strong>
 <li><header>
 <h4>Towards a digital biomarker of cognitive health: passive monitoring of cognitive changes using smartphone-based data.</h4>
-<p><strong>Kos M.</strong>(2020) Towards a digital biomarker of cognitive health: passive monitoring of cognitive changes using smartphone-based data. Poster presentation at the Computing Research Association Grad Cohort Workshop, Austin, TX. </p></header></li>
+<p><strong>Kos M.</strong> (2020) Towards a digital biomarker of cognitive health: passive monitoring of cognitive changes using smartphone-based data. Poster presentation at the Computing Research Association Grad Cohort Workshop, Austin, TX. </p></header></li>
 <strong>2019</strong>
 	<li><header>
 		<h4>How to Validate Heart Rate Monitoring Wearables for Just-in-Time Adaptive Health Interventions? Development of Comparison Testing Guidelines</h4>
