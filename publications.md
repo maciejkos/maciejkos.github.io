@@ -4,7 +4,7 @@ title: Publications
 ---
 
 <!-- Text stuff -->
-<p>RECENT ACADEMIC PAPERS AND PRESENTATIONS (PEER-REVIEWED)</p>
+<p>RECENT ACADEMIC PAPERS AND PRESENTATIONS</p>
 
 <ul>
 
