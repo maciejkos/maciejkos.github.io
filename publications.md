@@ -8,11 +8,11 @@ title: Publications
 
 <ul>
 
-  <strong>2019</strong>
+  <strong>2020</strong>
 <li><header>
 <h4>Towards a digital biomarker of cognitive health: passive monitoring of cognitive changes using smartphone-based data.</h4>
 <p><strong>Kos M.</strong>(2020) Towards a digital biomarker of cognitive health: passive monitoring of cognitive changes using smartphone-based data. Poster presentation at the Computing Research Association Grad Cohort Workshop, Austin, TX. </p></header></li>
-
+<strong>2019</strong>
 	<li><header>
 		<h4>How to Validate Heart Rate Monitoring Wearables for Just-in-Time Adaptive Health Interventions? Development of Comparison Testing Guidelines</h4>
 		<p><strong>Kos M.</strong>, Pavel M., Jimison H. (2019). How to Validate Heart Rate Monitoring Wearables for Just-in-Time Adaptive Health Interventions? Development of Comparison Testing Guidelines. Poster presentation at the Annual American Medical Informatics Association Symposium, Washington, DC. </p></header></li>
