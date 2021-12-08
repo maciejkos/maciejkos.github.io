@@ -8,6 +8,11 @@ title: Publications
 
 <ul>
 
+  <strong>2021</strong>
+<li><header>
+<h4>Towards a digital biomarker of cognitive health: passive monitoring of cognitive changes using smartphone-based data.</h4>
+<p>Pavel M., Caves K., Jarvis L., Hasson C.J., <strong>Kos M.</strong>, Jimison H. (2021). Unobtrusive, Continuous LIDAR-Based Measurement of Gait Characteristics at Home. Paper presentation at the 43rd Annual International Conference of the IEEE Engineering in Medicine and Biology Society, Virtual </p></header></li>
+
   <strong>2020</strong>
 <li><header>
 <h4>Towards a digital biomarker of cognitive health: passive monitoring of cognitive changes using smartphone-based data.</h4>
@@ -41,7 +46,7 @@ Effects of EEG-Based Closed-Loop Transcranial Alternating Current Stimulation on
 
 		<li><header><h4>
 NUCoach: A Modular Coaching Platform for Health and Data Scientists
-			</h4><p>Khaghani-Far I., Li X., <strong>Kos M.</strong>, Gordon C., Williams H., Pavel M., Jimison H. (2018). NUCoach: A Modular Coaching Platform for Health and Data Scientists  Paper presentation at the 40th Annual International Conference of the IEEE Engineering in Medicine and Biology Society, Hawaii.</p></header></li>
+			</h4><p>Khaghani-Far I., Li X., <strong>Kos M.</strong>, Gordon C., Williams H., Pavel M., Jimison H. (2018). NUCoach: A Modular Coaching Platform for Health and Data Scientists. Paper presentation at the 40th Annual International Conference of the IEEE Engineering in Medicine and Biology Society, Hawaii.</p></header></li>
 
 		<strong>2017</strong>
 
