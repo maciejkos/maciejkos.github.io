@@ -12,7 +12,6 @@ title: Publications
 <li><header>
 <h4>Towards a digital biomarker of cognitive health: passive monitoring of cognitive changes using smartphone-based data.</h4>
 <p>Pavel M., Caves K., Jarvis L., Hasson C.J., <strong>Kos M.</strong>, Jimison H. (2021). Unobtrusive, Continuous LIDAR-Based Measurement of Gait Characteristics at Home. Paper presentation at the 43rd Annual International Conference of the IEEE Engineering in Medicine and Biology Society, Virtual </p></header></li>
-
   <strong>2020</strong>
 <li><header>
 <h4>Towards a digital biomarker of cognitive health: passive monitoring of cognitive changes using smartphone-based data.</h4>
