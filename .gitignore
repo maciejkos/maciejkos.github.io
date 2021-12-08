@@ -5,3 +5,9 @@ Gemfile.lock
 *.gem
 /history
 /history/*
+.history/.gitignore_20210414024701
+.history/.gitignore_20211208142905
+.history/publications_20210414024702.md
+.history/publications_20211208142427.md
+.history/publications_20211208142457.md
+.history/publications_20211208142552.md
