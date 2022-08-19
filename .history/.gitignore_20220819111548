@@ -3,8 +3,7 @@ _site/
 .jekyll-metadata
 Gemfile.lock
 *.gem
-./history/
-./history/*
+./history
 /history
 /history/*
 .history/.gitignore_20210414024701
