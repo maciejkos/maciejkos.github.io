@@ -7,13 +7,19 @@ title: Publications
 <p>RECENT ACADEMIC PAPERS AND PRESENTATIONS</p>
 
 <ul>
-
+  <strong>2022</strong>
+<li><header>
+<h4>Early Detection of Cognitive Decline Via Mobile and Home Sensors</h4>
+<p>Jimison, H., <strong>Kos M.</strong>, Pavel, M. (2022). Early Detection of Cognitive Decline Via Mobile and Home Sensors. In: Hsueh, PY.S., Wetter, T., Zhu, X. (eds) Personal Health Informatics. Cognitive Informatics in Biomedicine and Healthcare. Springer, Cham. Online version: https://rdcu.be/c1niL</p></header></li>	
   <strong>2021</strong>
 <li><header>
 <h4>Unobtrusive, Continuous LIDAR-Based Measurement of Gait Characteristics at Home</h4>
 <p>Pavel M., Caves K., Jarvis L., Hasson C.J., <strong>Kos M.</strong>, Jimison H. (2021). Unobtrusive, Continuous LIDAR-Based Measurement of Gait Characteristics at Home. Paper presentation at the 43rd Annual International Conference of the IEEE Engineering in Medicine and Biology Society, Virtual </p></header></li>
   <strong>2020</strong>
 <li><header>
+<h4>Reshaping a nation: Mobility, commuting, and contact patterns during COVID-19.</h4>
+<p>Klein B., LaRock R., McCabe S., Torres L., Friedland L., <strong>Kos M.</strong>, Privitera F., Lake B., Kraemer M., Brownstein J.S., Lazer D., Eliassi-Rad T., Scarpino S.V., Vespignani A., Chinazzi M. (2020). Reshaping a nation: Mobility, commuting, and contact patterns during COVID-19. Presentation at COVID-19 Satellite of Sunbelt XL, International Sunbelt Social Network Conference, virtual</p></header></li>
+	<li><header>
 <h4>Towards a digital biomarker of cognitive health: passive monitoring of cognitive changes using smartphone-based data</h4>
 <p><strong>Kos M.</strong> (2020). Towards a digital biomarker of cognitive health: passive monitoring of cognitive changes using smartphone-based data. Poster presentation at the Computing Research Association Grad Cohort Workshop, Austin, TX. </p></header></li>
 <strong>2019</strong>
