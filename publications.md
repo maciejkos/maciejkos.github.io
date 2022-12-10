@@ -10,7 +10,7 @@ title: Publications
   <strong>2022</strong>
 <li><header>
 <h4>Early Detection of Cognitive Decline Via Mobile and Home Sensors</h4>
-<p>Jimison, H., <strong>Kos M.</strong>, Pavel, M. (2022). Early Detection of Cognitive Decline Via Mobile and Home Sensors. In: Hsueh, PY.S., Wetter, T., Zhu, X. (eds) Personal Health Informatics. Cognitive Informatics in Biomedicine and Healthcare. Springer, Cham. Online version: https://rdcu.be/c1niL</p></header></li>	
+<p>Jimison, H., <strong>Kos M.</strong>, Pavel, M. (2022). Early Detection of Cognitive Decline Via Mobile and Home Sensors. In: Hsueh, PY.S., Wetter, T., Zhu, X. (eds) Personal Health Informatics. Cognitive Informatics in Biomedicine and Healthcare. Springer, Cham. Online version: <a href="https://rdcu.be/c1niL">https://rdcu.be/c1niL</a></p></header></li>	
   <strong>2021</strong>
 <li><header>
 <h4>Unobtrusive, Continuous LIDAR-Based Measurement of Gait Characteristics at Home</h4>
