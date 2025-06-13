@@ -1,0 +1,45 @@
+// For format details, see https://aka.ms/devcontainer.json. For config options, see the
+// README at: https://github.com/devcontainers/templates/tree/main/src/jekyll
+{
+    "name": "Jekyll (Ruby 2.5 on Buster)",
+    "image": "ruby:2.5.9-slim-buster", // Using Ruby 2.5.9 on Debian Buster
+
+
+
+
+	// Features to add to the dev container. More info: https://containers.dev/features.
+    // "features": {
+    //     "ghcr.io/devcontainers/features/git:1": {} // Add Git feature
+    // },
+
+	// Use 'forwardPorts' to make a list of ports inside the container available locally.
+	// "forwardPorts": [],
+    "forwardPorts": [4000, 35729], // Forward Jekyll and LiveReload ports
+
+
+	// Uncomment the next line to run commands after the container is created.
+	// "postCreateCommand": "jekyll --version"
+    // Installs the specific Bundler and Jekyll versions needed, then installs project gems
+   
+    // "postCreateCommand": "apt-get update && apt-get install -y git build-essential libssl-dev --no-install-recommends && gem update --system 3.3.26 --no-document && gem install bundler -v 1.17.3 --no-document && gem install public_suffix -v 4.0.7 --no-document && gem install kramdown-parser-gfm --no-document && gem install jekyll -v 3.3.1 --no-document && bundle _1.17.3_ install",
+
+	    "postCreateCommand": "apt-get update && apt-get install -y git build-essential libssl-dev --no-install-recommends && gem update --system 3.3.26 --no-document && gem install bundler -v 1.17.3 --no-document && gem install public_suffix -v 4.0.7 --no-document && gem install jekyll -v 3.3.1 --no-document && bundle _1.17.3_ install",
+
+
+
+	// Configure tool-specific properties.
+	// "customizations": {},
+
+	"customizations": {
+        "vscode": {
+            "extensions": [
+                "rebornix.Ruby" // Helpful for Ruby development
+            ]
+        }
+    }
+
+	// Uncomment to connect as root instead. More info: https://aka.ms/dev-containers-non-root.
+	// "remoteUser": "root"
+}
+
+
