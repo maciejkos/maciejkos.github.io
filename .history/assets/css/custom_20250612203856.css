@@ -1,0 +1,45 @@
+/* Custom styles to override the theme defaults */
+
+/* Make links have thicker, dashed, blue underlines - ONLY in content areas */
+/* Target links only within paragraph tags and specific content areas */
+p a, 
+#wrapper p a, 
+.content a,
+#main a,
+div#wrapper a:not(#nav a):not(ul.links a):not(ul.icons a):not(.menu a):not(header a):not(footer a):not(.icons a) {
+    /* Try a completely different approach to eliminate double underlines */
+    text-decoration: none !important; /* Remove default underline completely */
+    border-bottom: 2px dashed #18bfef !important; /* Use border instead of text-decoration */
+    padding-bottom: 1px !important; /* Create some space */
+    box-shadow: none !important; /* Remove any shadow */
+}
+
+/* Keep the link color from the theme, but add the custom underline */
+p a:hover, 
+#wrapper p a:hover, 
+.content a:hover,
+#main a:hover {
+    text-decoration: underline !important;
+    text-decoration-style: dashed !important;
+    text-decoration-thickness: 2px !important;
+    text-decoration-color: #18bfef !important; /* Blue color on hover too */
+    border-bottom: none !important;
+    box-shadow: none !important;
+}
+
+/* Explicitly reset navigation links and menu items */
+#nav a, 
+ul.links a, 
+ul.icons a,
+.menu a,
+header a,
+footer a,
+.icons a {
+    text-decoration: inherit !important;
+    text-decoration-style: inherit !important;
+    text-decoration-thickness: inherit !important;
+    text-decoration-color: inherit !important;
+    text-underline-offset: inherit !important;
+    border-bottom: inherit !important;
+    box-shadow: inherit !important;
+}

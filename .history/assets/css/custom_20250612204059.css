@@ -1,0 +1,43 @@
+/* Custom styles to override the theme defaults */
+
+/* Make links have thicker, dashed, blue underlines - ONLY in content areas */
+/* Target links only within paragraph tags and specific content areas */
+p a, 
+#wrapper p a, 
+.content a,
+#main a {
+    /* Remove any default styling first */
+    text-decoration: none !important;
+    border-bottom: none !important;
+    box-shadow: none !important;
+    background-image: none !important;
+    
+    /* Then apply our custom underline */
+    border-bottom: 2px dashed #18bfef !important;
+    padding-bottom: 1px !important;
+}
+
+/* Keep the link color from the theme, but add the custom underline */
+p a:hover, 
+#wrapper p a:hover, 
+.content a:hover,
+#main a:hover {
+    text-decoration: underline;
+    text-decoration-style: dashed;
+    text-decoration-thickness: 2px;
+    text-decoration-color: #18bfef; /* Blue color on hover too */
+}
+
+/* Explicitly reset navigation links and menu items */
+#nav a, 
+ul.links a, 
+ul.icons a,
+.menu a,
+header a,
+footer a {
+    text-decoration: inherit;
+    text-decoration-style: inherit;
+    text-decoration-thickness: inherit;
+    text-decoration-color: inherit;
+    text-underline-offset: inherit;
+}
