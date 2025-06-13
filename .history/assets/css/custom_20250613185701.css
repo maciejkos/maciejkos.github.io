@@ -65,10 +65,6 @@ a.logo:hover {
 }
 
 /* Fix background image positioning on mobile screens */
-/* 
- * NOTE: The following @media block (max-width: 1245px) is intentionally commented out 
- * to prevent conflicts with mobile-fix.css, which now handles these adjustments for screen widths <= 1280px.
- */
 /*
 @media screen and (max-width: 1245px) {
     /* Target the banner/intro image more aggressively */

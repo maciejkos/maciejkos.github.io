@@ -28,24 +28,8 @@
         background-image: url("../images/overlay.png"), url("../images/mk.jpg") !important; /* Changed intro.jpg to mk.jpg */
         
         background-size: cover, cover !important; 
-        /* 
-         * Positions the background images. 
-         * - "top left" is for overlay.png.
-         * - "0% center" is for mk.jpg (the main image).
-         *   - The first value (0%) is the horizontal position. 
-         *     - 0% or "left": Aligns the left edge of the image with the left edge of its container.
-         *     - 50% or "center": Centers the image horizontally.
-         *     - 100% or "right": Aligns the right edge of the image with the right edge of its container.
-         *     - You can use other percentages (e.g., 25%) to fine-tune.
-         *   - The second value (center) is the vertical position.
-         *     - "top": Aligns the top edge of the image with the top edge of its container.
-         *     - "center": Centers the image vertically.
-         *     - "bottom": Aligns the bottom edge of the image with the bottom edge of its container.
-         *     - You can use percentages here too (e.g., 0% for top, 50% for center, 100% for bottom).
-         * Example: To center the main image completely: background-position: top left, center center !important;
-         * Example: To align main image to top left: background-position: top left, left top !important; or top left, 0% 0% !important;
-         */
-        background-position: top left, 25% center !important;
+        /* Positions overlay.png at top left, and mk.jpg with its left edge aligned to container's left and vertically centered. */
+        background-position: top left, 0% center !important;
         
         background-repeat: repeat, no-repeat !important; /* Explicitly set repeats */
         background-attachment: scroll !important; /* Consistent with main.css mobile and custom.css */

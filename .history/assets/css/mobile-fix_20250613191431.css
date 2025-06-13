@@ -45,7 +45,7 @@
          * Example: To center the main image completely: background-position: top left, center center !important;
          * Example: To align main image to top left: background-position: top left, left top !important; or top left, 0% 0% !important;
          */
-        background-position: top left, 25% center !important;
+        background-position: top left, 20% center !important;
         
         background-repeat: repeat, no-repeat !important; /* Explicitly set repeats */
         background-attachment: scroll !important; /* Consistent with main.css mobile and custom.css */
