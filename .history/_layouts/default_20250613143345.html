@@ -12,28 +12,6 @@
 		<link rel="stylesheet" href="{{ 'assets/css/custom.css' | relative_url }}" />
 		<!-- Mobile background image fix -->
 		<link rel="stylesheet" href="{{ 'assets/css/mobile-fix.css' | relative_url }}" />
-		
-		<!-- Direct inline styling for background image -->
-		<style>
-			/* Direct override of the background image position */
-			@media screen and (max-width: 1280px) {
-				#wrapper > .bg {
-					background-position: 0% center !important;
-					transform: none !important;
-				}
-				
-				/* Target parallax elements */
-				#bg {
-					background-position: 0% center !important;
-					transform: none !important;
-				}
-				
-				/* Override any dynamic styles */
-				[style*="background-position"] {
-					background-position: 0% center !important;
-				}
-			}
-		</style>
 	</head>
 	<body class="is-loading">
 
@@ -74,37 +52,6 @@
 			
 			<!-- Custom scripts added last to override theme behavior -->
 			<script src="{{ 'assets/js/custom.js' | relative_url }}"></script>
-			
-			<!-- Inline script to guarantee execution -->
-			<script>
-				// Execute after everything else has loaded
-				document.addEventListener('DOMContentLoaded', function() {
-					console.log('Inline script executing');
-					
-					// Override the wrapper background position
-					var bgElement = document.querySelector('#wrapper > .bg');
-					if (bgElement) {
-						console.log('Found background element, applying style');
-						bgElement.style.backgroundPosition = '0% center';
-						bgElement.style.transform = 'none';
-					}
-					
-					// Look for the image every 500ms to account for delayed loading
-					var checkInterval = setInterval(function() {
-						var bg = document.querySelector('#wrapper > .bg');
-						if (bg) {
-							bg.style.backgroundPosition = '0% center';
-							bg.style.transform = 'none';
-							console.log('Applied background position fix');
-						}
-					}, 500);
-					
-					// Clear interval after 5 seconds
-					setTimeout(function() {
-						clearInterval(checkInterval);
-					}, 5000);
-				});
-			</script>
 
 	</body>
 </html>

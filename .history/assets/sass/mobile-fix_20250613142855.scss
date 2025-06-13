@@ -1,0 +1,53 @@
+@import 'libs/vars';
+@import 'libs/functions';
+@import 'libs/mixins';
+
+/*
+ * Direct mobile fixes for Massively theme
+ * This targets the specific background image positioning issues on mobile
+ */
+
+/* 
+ * MOBILE BACKGROUND FIX 
+ * This forces the background image to position from the left (0%) on smaller screens
+ */
+@media screen and (max-width: 1280px) {
+    body {
+        &:after {
+            content: 'mobile view active';
+            display: none;
+        }
+    }
+    
+    #wrapper {
+        > .bg {
+            background-position: 0% center !important;
+            transform: none !important;
+        }
+    }
+    
+    .bg, #bg {
+        background-position: 0% center !important;
+        transform: none !important;
+    }
+    
+    #intro {
+        background-position: 0% center !important;
+    }
+    
+    /* Disable parallax on mobile */
+    #wrapper.parallax .bg {
+        background-attachment: scroll !important;
+        background-position: 0% center !important;
+    }
+}
+
+/* 
+ * PORTRAIT MODE FIX
+ * Additional fix for portrait orientation
+ */
+@include orientation(portrait) {
+    #wrapper > .bg {
+        background-position: 0% center !important;
+    }
+}
