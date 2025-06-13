@@ -1,0 +1,85 @@
+/* Custom styles to override the theme defaults */
+
+/* Make links have thicker, dashed, blue underlines - ONLY in content areas */
+/* Target links only within paragraph tags and specific content areas */
+p a, 
+#wrapper p a, 
+.content a,
+#main a {
+    /* Remove any default styling first */
+    text-decoration: none !important;
+    border-bottom: none !important;
+    box-shadow: none !important;
+    background-image: none !important;
+    
+    /* Then apply our custom underline */
+    border-bottom: 2px dashed #18bfef !important;
+    padding-bottom: 1px !important;
+}
+
+/* Keep the link color from the theme, but add the custom underline */
+p a:hover, 
+#wrapper p a:hover, 
+.content a:hover,
+#main a:hover {
+    /* Remove any default hover styling */
+    text-decoration: none !important;
+    box-shadow: none !important;
+    
+    /* Keep our custom blue dashed underline on hover */
+    border-bottom: 2px dashed #18bfef !important;
+    padding-bottom: 1px !important;
+}
+
+/* Explicitly reset navigation links and menu items */
+#nav a, 
+ul.links a, 
+ul.icons a,
+.menu a,
+header a,
+footer a,
+a.logo {
+    /* Make sure menu links stay unchanged */
+    text-decoration: inherit !important;
+    border-bottom: inherit !important;
+    box-shadow: inherit !important;
+    background-image: inherit !important;
+    padding-bottom: inherit !important;
+}
+
+/* Specifically restore the logo button's appearance */
+a.logo {
+    /* Make sure borders are visible on all sides */
+    border: 4.8px solid rgb(255, 255, 255) !important;
+    padding: 16px 28px !important;
+    text-transform: inherit !important;
+    font-weight: inherit !important;
+    letter-spacing: inherit !important;
+    box-sizing: border-box !important;
+}
+
+/* Reset any hover effects that may be interfering */
+a.logo:hover {
+    border: 4.8px solid rgb(255, 255, 255) !important;
+    background-color: transparent !important;
+}
+
+/* Fix background image positioning on mobile screens */
+@media screen and (max-width: 980px) {
+    /* Target the intro section background image */
+    #intro {
+        background-position: 20% center !important;  /* Show left 20% of image instead of center */
+    }
+    
+    /* If the above doesn't work, this targets more specific elements */
+    .is-preload #intro:after {
+        background-position: 20% center !important;
+    }
+    
+    /* For very small screens, adjust further if needed */
+    @media screen and (max-width: 480px) {
+        #intro {
+            background-position: 5% center !important; /* Show even more to the left */
+        }
+    }
+}

@@ -87,41 +87,6 @@ a.logo:hover {
     [style*="background"] {
         background-position: 0% center !important;
     }
-
-    /* Extremely aggressive targeting of all possible background elements */
-    #intro,
-    #intro:before,
-    #intro:after,
-    #intro > .inner,
-    #intro > div,
-    #intro .image,
-    #intro .image:before,
-    #intro .image:after,
-    #banner,
-    .banner,
-    .spotlight .image,
-    .image.main,
-    /* These !important directives will override any inline styles */
-    [style*="background-position"],
-    [style*="background-image"] {
-        background-position: left center !important;
-        -webkit-background-position: left center !important;
-        -moz-background-position: left center !important;
-        -ms-background-position: left center !important;
-        -o-background-position: left center !important;
-        object-position: left center !important;
-    }
-    
-    /* Override any animated header/banner settings */
-    header.major > :first-child:before,
-    .content > header > :first-child:before {
-        background-position: left center !important;
-    }
-    
-    /* If your theme uses background-attachment: fixed */
-    html, body, #wrapper, #intro {
-        background-attachment: scroll !important;
-    }
 }
 
 /* Even more aggressive for very small screens */
