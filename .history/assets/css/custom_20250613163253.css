@@ -68,28 +68,37 @@ a.logo:hover {
 /*
 @media screen and (max-width: 1245px) {
     /* Target the banner/intro image more aggressively */
+    /* 
     #intro {
         background-position: 0% center !important; /* Force align to the left edge */
         /* background-size: cover !important; */
-    }
+    /* } */
+    /* */ */
     
     /* Target all potential background elements */
+    /*
     .banner, #banner, #intro:before, #intro:after, .is-preload #intro:after {
         background-position: 0% center !important;
         background-size: cover !important;
     }
+    */
     
     /* Target the actual image element if it exists */
+    /*
     #intro img, .banner img, #banner img {
         object-position: 0% center !important; /* For actual img elements */
-    }
+    /* } */
+    /* */ */
     
     /* Override any inline styles that might be applied */
+    /*
     [style*="background"] {
         background-position: 0% center !important;
     }
+    */
 
     /* Extremely aggressive targeting of all possible background elements */
+    /*
     #intro,
     #intro:before,
     #intro:after,
@@ -103,6 +112,7 @@ a.logo:hover {
     .spotlight .image,
     .image.main,
     /* These !important directives will override any inline styles */
+    /*
     [style*="background-position"],
     [style*="background-image"] {
         background-position: left center !important;
@@ -112,19 +122,24 @@ a.logo:hover {
         -o-background-position: left center !important;
         object-position: left center !important;
     }
+    */
     
     /* Override any animated header/banner settings */
+    /*
     header.major > :first-child:before,
     .content > header > :first-child:before {
         background-position: left center !important;
     }
+    */
     
     /* If your theme uses background-attachment: fixed */
+    /*
     html, body, #wrapper, #intro {
         background-attachment: scroll !important;
     }
-}
-*/
+    */
+/*} */ /* Closing bracket for the 1245px media query is commented out */
+
 
 /* Even more aggressive for very small screens */
 @media screen and (max-width: 736px) {

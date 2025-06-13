@@ -24,9 +24,14 @@
     }
     
     #intro {
+        background-position: 0% center !important;
+        background-size: cover !important; /* Changed from 100% auto to cover */
+
         /* Explicitly define all background properties for both images */
-        background-image: url("../images/overlay.png"), url("../images/mk.jpg") !important; /* Changed intro.jpg to mk.jpg */
+        background-image: url("../../images/overlay.png"), url("../../images/intro.jpg") !important;
         
+        /* Ensure intro.jpg (second image) is 'cover' and positioned left. */
+        /* Let overlay.png (first image) also be 'cover' and positioned 'top left'. */
         background-size: cover, cover !important; 
         background-position: top left, 0% center !important;
         
