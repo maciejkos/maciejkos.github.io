@@ -69,35 +69,32 @@ a.logo:hover {
  * NOTE: The following @media block (max-width: 1245px) is intentionally commented out 
  * to prevent conflicts with mobile-fix.css, which now handles these adjustments for screen widths <= 1280px.
  */
-
- /*
+/*
 @media screen and (max-width: 1245px) {
-    // Target the banner/intro image more aggressively 
+    /* Target the banner/intro image more aggressively */
     #intro {
-        background-position: 0% center !important; 
-        //Force align to the left edge 
+        background-position: 0% center !important; /* Force align to the left edge */
+        /* background-size: cover !important; */
+    }
+    
+    /* Target all potential background elements */
+    .banner, #banner, #intro:before, #intro:after, .is-preload #intro:after {
+        background-position: 0% center !important;
         background-size: cover !important;
     }
     
-    /* //Target all potential background elements */
-    /* .banner, #banner, #intro:before, #intro:after, .is-preload #intro:after {
-        background-position: 0% center !important;
-        background-size: cover !important;
-    } */
+    /* Target the actual image element if it exists */
+    #intro img, .banner img, #banner img {
+        object-position: 0% center !important; /* For actual img elements */
+    }
     
-    /* //Target the actual image element if it exists */
-    /* #intro img, .banner img, #banner img {
-        object-position: 0% center !important; 
-        // For actual img elements 
-    } */
-    
-     /* // Override any inline styles that might be applied */
-    /* [style*="background"] {
+    /* Override any inline styles that might be applied */
+    [style*="background"] {
         background-position: 0% center !important;
-    } */
+    }
 
     /* Extremely aggressive targeting of all possible background elements */
-    /* #intro,
+    #intro,
     #intro:before,
     #intro:after,
     #intro > .inner,
@@ -109,7 +106,7 @@ a.logo:hover {
     .banner,
     .spotlight .image,
     .image.main,
-    //These !important directives will override any inline styles
+    /* These !important directives will override any inline styles */
     [style*="background-position"],
     [style*="background-image"] {
         background-position: left center !important;
@@ -118,20 +115,20 @@ a.logo:hover {
         -ms-background-position: left center !important;
         -o-background-position: left center !important;
         object-position: left center !important;
-    } */
+    }
     
     /* Override any animated header/banner settings */
-    /* header.major > :first-child:before,
+    header.major > :first-child:before,
     .content > header > :first-child:before {
         background-position: left center !important;
-    } */
+    }
     
     /* If your theme uses background-attachment: fixed */
-    /* html, body, #wrapper, #intro {
+    html, body, #wrapper, #intro {
         background-attachment: scroll !important;
-    } */
-/* } */
-
+    }
+}
+*/
 
 /* Even more aggressive for very small screens */
 @media screen and (max-width: 736px) {
@@ -140,20 +137,3 @@ a.logo:hover {
         /* Intentionally not setting background-size here to let mobile-fix.css control it */
     }
 }
-
-/* Override tagline highlight color */
-.p2 {
-    background-color: #009dca !important;
-}
-
-/* custom override */
-#navPanelToggle,
-#navPanelToggle:before {      /* :before draws the ☰ icon */
-    color: #009dca !important;
-}
-
-#navPanelToggle.alt {
-    color: #009dca !important;   /* when the badge appears */
-}
-
-

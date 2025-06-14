@@ -145,15 +145,3 @@ a.logo:hover {
 .p2 {
     background-color: #009dca !important;
 }
-
-/* custom override */
-#navPanelToggle,
-#navPanelToggle:before {      /* :before draws the ☰ icon */
-    color: #009dca !important;
-}
-
-#navPanelToggle.alt {
-    color: #009dca !important;   /* when the badge appears */
-}
-
-
