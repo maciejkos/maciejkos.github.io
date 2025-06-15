@@ -6,7 +6,4 @@
 @keyframes eq{0%,100%{transform:scaleY(.25)}25%{transform:scaleY(1)}50%{transform:scaleY(.5)}75%{transform:scaleY(.85)}}
 .wave-icon.playing rect{animation:eq .9s infinite ease-in-out}
 .wave-icon.playing rect:nth-child(2){animation-delay:.15s}
-.wave-icon.playing rect:nth-child(3){animation-delay:.3s}
-.wave-path{stroke:currentColor;stroke-width:2;fill:none;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:4 4;stroke-dashoffset:0;transition:opacity .15s}
-.wave-icon.playing .wave-path{animation:dash 1s linear infinite}
-@keyframes dash{to{stroke-dashoffset:-8}} 
+.wave-icon.playing rect:nth-child(3){animation-delay:.3s} 

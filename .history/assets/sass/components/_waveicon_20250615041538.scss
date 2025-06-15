@@ -47,25 +47,4 @@
 
 .wave-icon.playing rect:nth-child(3) {
   animation-delay: 0.3s;
-}
-
-.wave-path {
-  stroke: currentColor;
-  stroke-width: 2;
-  fill: none;
-  stroke-linecap: round;
-  stroke-linejoin: round;
-  stroke-dasharray: 4 4;
-  stroke-dashoffset: 0;
-  transition: opacity 0.15s;
-}
-
-.wave-icon.playing .wave-path {
-  animation: dash 1s linear infinite;
-}
-
-@keyframes dash {
-  to {
-    stroke-dashoffset: -8;
-  }
 } 
