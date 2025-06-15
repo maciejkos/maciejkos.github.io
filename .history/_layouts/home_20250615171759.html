@@ -84,6 +84,12 @@
                 </ul>
 
 
+				import { Application } from '@splinetool/runtime';
+
+				const canvas = document.getElementById('canvas3d');
+				const app = new Application(canvas);
+				app.load('https://prod.spline.design/j1Nsuc4e1hi1l7fa/scene.splinecode');
+
 				<p>When working with industry partners, I focus on applying methods from computational and behavioral sciences to provide interpretable and actionable insight into user behavior.</p>
 
                 <h4>Teaching and Mentoring</h4>
@@ -172,14 +178,6 @@
                 </ul>
             </section>
 
-            <!-- Section for Spline 3D Scene -->
-            <section id="spline-3d-scene" class="box">
-                <header>
-                    <h2>Interactive 3D Scene</h2>
-                </header>
-                <canvas id="canvas3d" style="width: 100%; height: 450px; background-color: #f0f0f0;"></canvas>
-            </section>
-
             <section id="connect" class="invert">
                 <header><h2>Connect</h2></header>
                 <ul class="alt">
@@ -214,25 +212,6 @@
                 });
             </script>
 
-            <!-- Script to load the Spline 3D scene -->
-            <script type="module">
-                import { Application } from 'https://unpkg.com/@splinetool/runtime';
-
-                const canvas = document.getElementById('canvas3d');
-
-                if (canvas) {
-                    const app = new Application(canvas);
-                    app.load('https://prod.spline.design/j1Nsuc4e1hi1l7fa/scene.splinecode')
-                        .then(() => {
-                            console.log('Spline scene loaded successfully.');
-                        })
-                        .catch((error) => {
-                            console.error('Error loading Spline scene:', error);
-                        });
-                } else {
-                    console.error('Canvas element with id "canvas3d" not found.');
-                }
-            </script>
         </div>
 
     </body>
