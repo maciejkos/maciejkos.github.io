@@ -177,7 +177,7 @@
                 <header>
                     <h2>Interactive 3D Scene</h2>
                 </header>
-                <canvas id="canvas3d" style="width: 100%; height: 400px; background-color: transparent; display: block; margin: 0 auto; max-width: 100px ;max-height: 100px;"></canvas>
+                <canvas id="canvas3d" style="width: 100%; height: 450px; background-color: #f0f0f0;"></canvas>
             </section>
 
             <section id="connect" class="invert">
@@ -221,11 +221,8 @@
                 const canvas = document.getElementById('canvas3d');
 
                 if (canvas) {
-                    // Initialize Spline with alpha transparency enabled
-                    const app = new Application(canvas, { alpha: true });
-
-                    // Load your Spline scene
-                    app.load('https://prod.spline.design/xIlBsxiyKVk7LQGm/scene.splinecode')
+                    const app = new Application(canvas);
+                    app.load('https://prod.spline.design/BgclF0y-sztMARbB/scene.splinecode')
                         .then(() => {
                             console.log('Spline scene loaded successfully.');
 
