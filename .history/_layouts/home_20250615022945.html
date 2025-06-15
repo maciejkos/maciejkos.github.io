@@ -21,7 +21,7 @@
             <!-- Refreshed themed content -->
 
             <section id="bio" class="box">
-                <header><h2 id="time-based-greeting">Hello!</h2></header>
+                <header><h2 id="time-based-greeting">Good Evening</h2></header>
 
                 <p>My name is Maciej Kos. <br>
 				My research is driven by the goal of extending healthspan and amplifying cognitive performance through technology-enabled interventions and scientific discovery.</p>
@@ -125,11 +125,11 @@
                         let greetingText = "Hello"; // Default greeting
 
                         if (currentHour >= 5 && currentHour < 12) {
-                            greetingText = "Good Morning!";
+                            greetingText = "Good Morning";
                         } else if (currentHour >= 12 && currentHour < 18) {
-                            greetingText = "Good Afternoon!";
+                            greetingText = "Good Afternoon";
                         } else { // Covers 22, 23, 0, 1, 2, 3, 4
-                            greetingText = "Good Evening!";
+                            greetingText = "Good Evening";
                         }
                         greetingElement.textContent = greetingText;
                     }
