@@ -81,17 +81,17 @@
 					<li>Let's connect on <a href="https://www.linkedin.com/in/maciejkos/">LinkedIn</a>.</li>
                 </ul>
             </section>
-			<p>My name is <span class="brand-name">Maciej <svg id="wave-button-animated" class="wave-icon" 
-				viewBox="0 0 60 20" 
-				xmlns="http://www.w3.org/2000/svg" 
-				style="--icon-scale: 2.5; width: calc(60px * var(--icon-scale)); height: calc(20px * var(--icon-scale)); vertical-align: super; overflow: visible; cursor: pointer; margin-left: 0.1em;" 
-				role="button" 
-				aria-label="Play name pronunciation">
+			<p>My name is <span class="brand-name">Maciej <svg id="wave-button-animated" class="wave-icon" width="50" height="48" viewBox="0 0 60 20" xmlns="http://www.w3.org/2000/svg" style="vertical-align: super; overflow: visible; cursor: pointer; margin-left: 0.1em;" role="button" aria-label="Play name pronunciation">
 				<title>Play name pronunciation</title>
 				<defs>
 					<path id="iconWaveformPathAnimated" d="M0 10 Q5 -2 10 10 T20 10 T30 10 T40 10 T50 10 T60 10" />
-					<linearGradient id="iconIridescentBaseAnimated" gradientUnits="userSpaceOnUse" x1="0" y1="10" x2="60" y2="10">
-						<stop offset="0%" stop-color="#00FFFF" /><stop offset="20%" stop-color="#FF00FF" /><stop offset="40%" stop-color="#FFFF00" /><stop offset="60%" stop-color="#00FF00" /><stop offset="80%" stop-color="#0077FF" /><stop offset="100%" stop-color="#00FFFF" />
+					<linearGradient id="iconIridescentBase" gradientUnits="userSpaceOnUse" x1="0" y1="10" x2="60" y2="10">
+						<stop offset="0%" stop-color="#00FFFF" />
+						<stop offset="20%" stop-color="#FF00FF" />
+						<stop offset="40%" stop-color="#FFFF00" />
+						<stop offset="60%" stop-color="#00FF00" />
+						<stop offset="80%" stop-color="#0077FF" />
+						<stop offset="100%" stop-color="#00FFFF" />
 						<animateTransform
 							attributeName="gradientTransform"
 							type="rotate"
@@ -99,8 +99,12 @@
 							dur="7s"
 							repeatCount="indefinite" />
 					</linearGradient>
-					<linearGradient id="iconLightSweepAnimated" gradientUnits="userSpaceOnUse" x1="0" y1="10" x2="25" y2="10">
-						<stop offset="0%" stop-color="rgba(255,255,255,0)" /><stop offset="30%" stop-color="rgba(255,255,255,0)" /><stop offset="50%" stop-color="rgba(255,255,255,0.75)" /><stop offset="70%" stop-color="rgba(255,255,255,0)" /><stop offset="100%" stop-color="rgba(255,255,255,0)" />
+					<linearGradient id="iconLightSweep" gradientUnits="userSpaceOnUse" x1="0" y1="10" x2="25" y2="10">
+						<stop offset="0%" stop-color="rgba(255, 255, 255, 0)" />
+						<stop offset="30%" stop-color="rgba(255, 255, 255, 0)" />
+						<stop offset="50%" stop-color="rgba(255, 255, 255, 0.75)" />
+						<stop offset="70%" stop-color="rgba(255, 255, 255, 0)" />
+						<stop offset="100%" stop-color="rgba(255, 255, 255, 0)" />
 						<animateTransform
 							attributeName="gradientTransform"
 							type="translate"
@@ -109,16 +113,14 @@
 							repeatCount="indefinite" />
 					</linearGradient>
 					<mask id="iconWaveMaskForSweep">
-						<use href="#iconWaveformPathAnimated" fill="white" stroke="none"/>
+						<use href="#iconWaveformPath" fill="white" />
 					</mask>
 				</defs>
-				<g transform="scale(var(--icon-scale, 1))">
-					<use href="#iconWaveformPathAnimated" fill="none" stroke="rgba(255,0,0,0.5)" stroke-width="0.6" transform="translate(-0.15, 0.08)" /> 
-					<use href="#iconWaveformPathAnimated" fill="none" stroke="rgba(0,255,255,0.5)" stroke-width="0.6" transform="translate(0.15, -0.08)" />
-					<use href="#iconWaveformPathAnimated" stroke="url(#iconIridescentBaseAnimated)" fill="none" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
-					<rect x="0" y="0" width="60" height="20" fill="url(#iconLightSweepAnimated)" mask="url(#iconWaveMaskForSweep)"/>
-					<use href="#iconWaveformPathAnimated" fill="none" stroke="rgba(255,255,255,0.3)" stroke-width="0.2" />
-				</g>
+				<use href="#iconWaveformPathAnimated" fill="none" stroke="rgba(255, 0, 0, 0.5)" stroke-width="1.0" transform="translate(-0.3, 0.15)" />
+				<use href="#iconWaveformPathAnimated" fill="none" stroke="rgba(0, 255, 255, 0.5)" stroke-width="1.0" transform="translate(0.3, -0.15)" />
+				<use href="#iconWaveformPathAnimated" fill="url(#iconIridescentBase)" />
+				<rect x="0" y="0" width="60" height="20" fill="url(#iconLightSweep)" mask="url(#iconWaveMaskForSweep)"/> <!-- Ensure mask ID matches if iconWaveformPath ID changes -->
+				<use href="#iconWaveformPathAnimated" fill="none" stroke="rgba(255, 255, 255, 0.2)" stroke-width="0.3" />
 			</svg></span> Kos. <br>
 							My research is driven by the goal of extending healthspan and amplifying cognitive performance through technology-enabled interventions and scientific discovery.</p>
 							<p>I am a Postdoctoral Research Fellow at the <a href="https://cbh.northeastern.edu/">Center for Cognitive and Brain Health</a> at Northeastern University.</p>

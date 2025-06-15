@@ -30,7 +30,71 @@
   <path class="arc a2" d="M16 7a6 6 0 0 1 0 10"/> <!-- outer wave -->
 </svg></span> Kos. <br>
 				My research is driven by the goal of extending healthspan and amplifying cognitive performance through technology-enabled interventions and scientific discovery.</p>
-				<p>I am a Postdoctoral Research Fellow at the <a href="https://cbh.northeastern.edu/">Center for Cognitive and Brain Health</a> at Northeastern University.</p>
+				<p>I am a Postdoctoral Research Fellow at the <a href="https://cbh.northeastern.edu/">Center for Cognitive and Brain Health</a> at Northeastern University.<svg width="30" height="10" viewBox="0 0 60 20" xmlns="http://www.w3.org/2000/svg" style="vertical-align: super; overflow: visible; cursor: pointer;" role="button" aria-label="Play name pronunciation">
+					<title>Play name pronunciation</title>
+					<defs>
+						<!-- The waveform path (using the same path data as your existing wave-icon) -->
+						<path id="iconWaveformPath" d="M0 10 Q5 0 10 10 T20 10 T30 10 T40 10 T50 10 T60 10" />
+				
+						<!-- 1. Iridescent Base Gradient (animated rotation) -->
+						<!-- This creates the underlying rainbow shimmer -->
+						<linearGradient id="iconIridescentBase" gradientUnits="userSpaceOnUse" x1="0" y1="10" x2="60" y2="10">
+							<stop offset="0%" stop-color="#00FFFF" />    <!-- Cyan -->
+							<stop offset="20%" stop-color="#FF00FF" />   <!-- Magenta -->
+							<stop offset="40%" stop-color="#FFFF00" />   <!-- Yellow -->
+							<stop offset="60%" stop-color="#00FF00" />   <!-- Green -->
+							<stop offset="80%" stop-color="#0077FF" />   <!-- Bright Blue -->
+							<stop offset="100%" stop-color="#00FFFF" />  <!-- Cyan (to ensure smooth loop) -->
+							<animateTransform
+								attributeName="gradientTransform"
+								type="rotate"
+								values="0 30 10; 360 30 10" <!-- Rotates around the center of the viewBox (30,10) -->
+								dur="7s"
+								repeatCount="indefinite" />
+						</linearGradient>
+				
+						<!-- 2. Light Sweep Gradient -->
+						<!-- This creates a bright highlight that sweeps across the waveform -->
+						<linearGradient id="iconLightSweep" gradientUnits="userSpaceOnUse" x1="0" y1="10" x2="25" y2="10"> <!-- Defines the width of the sweep band (25 units) -->
+							<stop offset="0%" stop-color="rgba(255, 255, 255, 0)" />
+							<stop offset="30%" stop-color="rgba(255, 255, 255, 0)" />
+							<stop offset="50%" stop-color="rgba(255, 255, 255, 0.75)" /> <!-- Central bright part of the sweep -->
+							<stop offset="70%" stop-color="rgba(255, 255, 255, 0)" />
+							<stop offset="100%" stop-color="rgba(255, 255, 255, 0)" />
+							<animateTransform
+								attributeName="gradientTransform"
+								type="translate"
+								values="-25; 60" <!-- Sweeps the 25-unit gradient from left (starts at x=-25) to right (starts at x=60, ends at x=85) -->
+								dur="2.5s"
+								repeatCount="indefinite" />
+						</linearGradient>
+				
+						<!-- Mask to confine the light sweep to the exact shape of the waveform -->
+						<mask id="iconWaveMaskForSweep">
+							<use href="#iconWaveformPath" fill="white" />
+						</mask>
+					</defs>
+				
+					<!-- Rendering Layers (order matters for visibility) -->
+				
+					<!-- Layer 1: Chromatic Aberration Fringes (drawn first, so they are behind) -->
+					<!-- These create a subtle red/cyan edge, hinting at a digital/holographic distortion -->
+					<use href="#iconWaveformPath" fill="none" stroke="rgba(255, 0, 0, 0.45)" stroke-width="0.65" transform="translate(-0.25, 0.1)" /> <!-- Red fringe -->
+					<use href="#iconWaveformPath" fill="none" stroke="rgba(0, 255, 255, 0.45)" stroke-width="0.65" transform="translate(0.25, -0.1)" /> <!-- Cyan fringe -->
+				
+					<!-- Layer 2: Main Iridescent Waveform -->
+					<!-- The core waveform filled with the rotating iridescent gradient -->
+					<use href="#iconWaveformPath" fill="url(#iconIridescentBase)" />
+				
+					<!-- Layer 3: Light Sweep Overlay -->
+					<!-- The bright sweep effect, masked to the waveform's shape, drawn on top of the base fill -->
+					<rect x="0" y="0" width="60" height="20" fill="url(#iconLightSweep)" mask="url(#iconWaveMaskForSweep)"/>
+				
+					<!-- Layer 4: Subtle Outline (optional, for definition) -->
+					<!-- A very faint outline to give the waveform a crisp edge, especially against varied backgrounds -->
+					<use href="#iconWaveformPath" fill="none" stroke="rgba(255, 255, 255, 0.15)" stroke-width="0.2" />
+				</svg>
+				</p>
 				
 
 				<h4>Funding</h4>
@@ -81,48 +145,7 @@
 					<li>Let's connect on <a href="https://www.linkedin.com/in/maciejkos/">LinkedIn</a>.</li>
                 </ul>
             </section>
-			<p>My name is <span class="brand-name">Maciej <svg id="wave-button-animated" class="wave-icon" 
-				viewBox="0 0 60 20" 
-				xmlns="http://www.w3.org/2000/svg" 
-				style="--icon-scale: 2.5; width: calc(60px * var(--icon-scale)); height: calc(20px * var(--icon-scale)); vertical-align: super; overflow: visible; cursor: pointer; margin-left: 0.1em;" 
-				role="button" 
-				aria-label="Play name pronunciation">
-				<title>Play name pronunciation</title>
-				<defs>
-					<path id="iconWaveformPathAnimated" d="M0 10 Q5 -2 10 10 T20 10 T30 10 T40 10 T50 10 T60 10" />
-					<linearGradient id="iconIridescentBaseAnimated" gradientUnits="userSpaceOnUse" x1="0" y1="10" x2="60" y2="10">
-						<stop offset="0%" stop-color="#00FFFF" /><stop offset="20%" stop-color="#FF00FF" /><stop offset="40%" stop-color="#FFFF00" /><stop offset="60%" stop-color="#00FF00" /><stop offset="80%" stop-color="#0077FF" /><stop offset="100%" stop-color="#00FFFF" />
-						<animateTransform
-							attributeName="gradientTransform"
-							type="rotate"
-							values="0 30 10; 360 30 10"
-							dur="7s"
-							repeatCount="indefinite" />
-					</linearGradient>
-					<linearGradient id="iconLightSweepAnimated" gradientUnits="userSpaceOnUse" x1="0" y1="10" x2="25" y2="10">
-						<stop offset="0%" stop-color="rgba(255,255,255,0)" /><stop offset="30%" stop-color="rgba(255,255,255,0)" /><stop offset="50%" stop-color="rgba(255,255,255,0.75)" /><stop offset="70%" stop-color="rgba(255,255,255,0)" /><stop offset="100%" stop-color="rgba(255,255,255,0)" />
-						<animateTransform
-							attributeName="gradientTransform"
-							type="translate"
-							values="-25; 60"
-							dur="2.5s"
-							repeatCount="indefinite" />
-					</linearGradient>
-					<mask id="iconWaveMaskForSweep">
-						<use href="#iconWaveformPathAnimated" fill="white" stroke="none"/>
-					</mask>
-				</defs>
-				<g transform="scale(var(--icon-scale, 1))">
-					<use href="#iconWaveformPathAnimated" fill="none" stroke="rgba(255,0,0,0.5)" stroke-width="0.6" transform="translate(-0.15, 0.08)" /> 
-					<use href="#iconWaveformPathAnimated" fill="none" stroke="rgba(0,255,255,0.5)" stroke-width="0.6" transform="translate(0.15, -0.08)" />
-					<use href="#iconWaveformPathAnimated" stroke="url(#iconIridescentBaseAnimated)" fill="none" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
-					<rect x="0" y="0" width="60" height="20" fill="url(#iconLightSweepAnimated)" mask="url(#iconWaveMaskForSweep)"/>
-					<use href="#iconWaveformPathAnimated" fill="none" stroke="rgba(255,255,255,0.3)" stroke-width="0.2" />
-				</g>
-			</svg></span> Kos. <br>
-							My research is driven by the goal of extending healthspan and amplifying cognitive performance through technology-enabled interventions and scientific discovery.</p>
-							<p>I am a Postdoctoral Research Fellow at the <a href="https://cbh.northeastern.edu/">Center for Cognitive and Brain Health</a> at Northeastern University.</p>
-							
+
             <section id="updates" class="box alt">
                 <header><h2>Updates</h2></header>
                 <ul class="alt">
