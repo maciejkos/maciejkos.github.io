@@ -1,0 +1,5 @@
+/* Wave icon CSS compiled */
+.brand-name{white-space:nowrap}
+.wave-icon{width:.95em;height:1em;vertical-align:super;fill:currentColor;cursor:pointer;transition:opacity .15s ease}
+.wave-icon:hover{opacity:.7}@keyframes eq{0%,100%{transform:scaleY(.25)}25%{transform:scaleY(1)}50%{transform:scaleY(.5)}75%{transform:scaleY(.85)}}
+.playing rect{animation:eq .8s infinite ease-in-out;transform-origin:50% 100%} 
