@@ -21,9 +21,7 @@
             <!-- Refreshed themed content -->
 
             <section id="bio" class="box">
-                <header><h2 id="time-based-greeting">Hello!</h2></header>
-
-                <p>My name is <span class="brand-name">Maciej<canvas id="canvas3d" style="display: inline-block; max-width: 100px; max-height: 100px; vertical-align: -0.6em; margin-left: 0px; background-color: transparent;"></canvas></span> Kos. <br>
+                <header><h2 id="time-based-greeting">Hello!</h2></header>                <p>My name is <span class="brand-name">Maciej<canvas id="canvas3d"></canvas></span> Kos. <br>
 				My research is driven by the goal of extending healthspan and amplifying cognitive performance through technology-enabled interventions and scientific discovery.</p>
 			
 				<p>I am a Postdoctoral Research Fellow at the <a href="https://cbh.northeastern.edu/">Center for Cognitive and Brain Health</a> at Northeastern University.</p>
@@ -187,12 +185,21 @@
 
                 if (canvas) {
                     // Initialize Spline with alpha transparency enabled
-                    const app = new Application(canvas, { alpha: true });
-
-                    // Load your Spline scene
+                    const app = new Application(canvas, { alpha: true });                    // Load your Spline scene
                     app.load('https://prod.spline.design/xIlBsxiyKVk7LQGm/scene.splinecode')
                         .then(() => {
                             console.log('Spline scene loaded successfully.');
+
+                            // Zoom camera closer to make object appear larger in small canvas
+                            try {
+                                const camera = app.findObjectByName('Camera');
+                                if (camera) {
+                                    // Move camera closer to the object
+                                    camera.position.z *= 0.5; // Move 50% closer
+                                }
+                            } catch (e) {
+                                console.log('Could not adjust camera:', e);
+                            }
 
                             // Make the canvas clickable to play a sound
                             if (typeof Howl !== 'undefined') {

@@ -70,7 +70,7 @@ a.logo:hover {
  * to prevent conflicts with mobile-fix.css, which now handles these adjustments for screen widths <= 1280px.
  */
 
- /*
+/*
 @media screen and (max-width: 1245px) {
     // Target the banner/intro image more aggressively 
     #intro {
@@ -162,5 +162,104 @@ a.logo:hover {
     box-shadow: 0 0.125rem 0.75rem 0 rgba(30, 37, 45, 0.25) !important;
     color: #009dca !important; /* keep blue text/icon */
 }
+
+/* Canvas size reduction - Multiple options for experimentation */
+
+/* Option 1: Canvas with CSS scaling - CURRENTLY ACTIVE */
+#canvas3d {
+    width: 60px !important;       /* Reasonable viewport size */
+    height: 60px !important;      /* Reasonable viewport size */
+    transform: scale(0.25) !important;  /* Scale down to 25% = 15px visual */
+    transform-origin: center !important;
+    vertical-align: -0.01em !important;
+    margin: -22.5px 0 !important; /* Compensate for scale: (60-15)/2 = 22.5px */
+    display: inline-block !important;
+    background-color: transparent !important;
+}
+
+/* Even more aggressive - override any possible inline styles */
+/* canvas[id="canvas3d"] {
+    max-width: 5px !important;
+    max-height: 5px !important;
+    width: 5px !important;
+    height: 5px !important;
+    vertical-align: -0.01em !important;
+    margin: 0 !important;
+} */
+
+/* JavaScript fallback - add this script tag to your HTML if CSS doesn't work */
+/*
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    const canvas = document.getElementById('canvas3d');
+    if (canvas) {
+        canvas.style.cssText = 'max-width: 5px !important; max-height: 5px !important; width: 5px !important; height: 5px !important; vertical-align: -0.01em !important; margin: 0 !important; display: inline-block !important;';
+        canvas.width = 5;
+        canvas.height = 5;
+    }
+});
+</script>
+*/
+
+/* Option 2: Very small canvas (uncomment to use) */
+/*
+#canvas3d {
+    max-width: 40px !important;
+    max-height: 40px !important;
+    width: 60px !important;
+    height: 60px !important;
+    vertical-align: -0.3em !important;
+    margin: 0 2px !important;
+}
+*/
+
+/* Option 3: Small canvas (uncomment to use) */
+/*
+#canvas3d {
+    max-width: 50px !important;
+    max-height: 50px !important;
+    width: 75px !important;
+    height: 75px !important;
+    vertical-align: -0.4em !important;
+    margin: 0 !important;
+}
+*/
+
+/* Option 4: Compact canvas - CURRENTLY ACTIVE */
+/* #canvas3d {
+    max-width: 25px !important;
+    max-height: 25px !important;
+    width: 35px !important;
+    height: 35px !important;
+    vertical-align: -0.1em !important;
+    margin: 0 1px !important;
+    display: inline-block !important;
+} */
+
+/* Option 5: Micro canvas (uncomment to use) */
+/*
+#canvas3d {
+    max-width: 20px !important;
+    max-height: 20px !important;
+    width: 30px !important;
+    height: 30px !important;
+    vertical-align: -0.05em !important;
+    margin: 0 !important;
+}
+*/
+
+/* Option 6: Remove all margins and padding around canvas */
+/*
+#canvas3d {
+    max-width: 35px !important;
+    max-height: 35px !important;
+    width: 50px !important;
+    height: 50px !important;
+    vertical-align: baseline !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    border: none !important;
+}
+*/
 
 
