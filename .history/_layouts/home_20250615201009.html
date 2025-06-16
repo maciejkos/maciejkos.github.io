@@ -23,9 +23,31 @@
             <section id="bio" class="box">
                 <header><h2 id="time-based-greeting">Hello!</h2></header>
 
-                <p>My name is <span class="brand-name">Maciej<canvas id="canvas3d" style="display: inline-block; max-width: 100px; max-height: 100px; vertical-align: -0.6em; margin-left: 0px; background-color: transparent;"></canvas></span> Kos. <br>
+                <p>My name is <span class="brand-name">Maciej<canvas id="canvas3d" style="display: inline-block; width: 32px; height: 32px; vertical-align: -0.6em; margin-left: 5px; background-color: transparent;"></canvas></span> Kos. <br>
 				My research is driven by the goal of extending healthspan and amplifying cognitive performance through technology-enabled interventions and scientific discovery.</p>
-			
+				<p style="margin-top:0.3em;">
+					<span class="brand-name">
+						<svg id="play-text-button" class="play-svg" viewBox="0 0 120 30" width="90" height="24" xmlns="http://www.w3.org/2000/svg" role="button" aria-label="Play audio" style="cursor:pointer; overflow:visible;">
+							<title>Play audio</title>
+							<defs>
+								<linearGradient id="playGrad" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="120" y2="0">
+									<stop offset="0%" stop-color="#00FFFF" /><stop offset="16%" stop-color="#FF00FF" /><stop offset="33%" stop-color="#FFFF00" /><stop offset="50%" stop-color="#00FF00" /><stop offset="66%" stop-color="#0077FF" /><stop offset="83%" stop-color="#FF6600" /><stop offset="100%" stop-color="#00FFFF" />
+									<animateTransform attributeName="gradientTransform" type="translate" values="-120;0" dur="6s" repeatCount="indefinite" />
+								</linearGradient>
+								<linearGradient id="playSweep" gradientUnits="userSpaceOnUse" x1="-40" y1="0" x2="40" y2="0">
+									<stop offset="0%" stop-color="rgba(255,255,255,0)" /><stop offset="45%" stop-color="rgba(255,255,255,0)" /><stop offset="50%" stop-color="rgba(255,255,255,0.8)" /><stop offset="55%" stop-color="rgba(255,255,255,0)" /><stop offset="100%" stop-color="rgba(255,255,255,0)" />
+									<animateTransform attributeName="gradientTransform" type="translate" values="0;160" dur="2.5s" repeatCount="indefinite" />
+								</linearGradient>
+								<text id="playTextPath" x="0" y="23" font-family="'Futura','Helvetica Neue',Arial,sans-serif" font-size="24" font-weight="700">Play</text>
+								<mask id="playMask"><use href="#playTextPath" fill="white"/></mask>
+							</defs>
+							<use href="#playTextPath" fill="none" stroke="rgba(255,0,0,0.55)" stroke-width="1.2" transform="translate(-0.6,0.6)" />
+							<use href="#playTextPath" fill="none" stroke="rgba(0,255,255,0.55)" stroke-width="1.2" transform="translate(0.6,-0.6)" />
+							<use href="#playTextPath" fill="url(#playGrad)" />
+							<rect x="0" y="0" width="120" height="30" fill="url(#playSweep)" mask="url(#playMask)" />
+						</svg>
+					</span>
+				</p>
 				<p>I am a Postdoctoral Research Fellow at the <a href="https://cbh.northeastern.edu/">Center for Cognitive and Brain Health</a> at Northeastern University.</p>
 				
 
