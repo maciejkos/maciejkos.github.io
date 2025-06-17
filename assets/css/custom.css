@@ -181,31 +181,62 @@ a.logo:hover {
     position: relative !important; /* Helps with margin collapsing */
 }
 
-/* Highlighter marker style */
+/* Highlighter marker styles */
 
+marker0 {} /* Used currently; can be replaced in html with below markers */
 
-/* --- New Highlight Approaches --- */
-
-/* Approach 1: Filtered Highlight with <span> (New) */
-/* Apply this class to a <span> element wrapping the text to be highlighted. */
-/* Ensure the SVG filter with id="marker-shape" is defined on the page. */
-.svg-highlight {
-  background-color: #ff6db7; /* Base color for the highlight */
-  color: inherit;             /* Inherits text color; set explicitly if needed */
-  padding: 0.1em 0.2em;       /* Small padding to give filter space - adjust as needed */
-                              /* The filter effect might extend beyond this padding */
+marker1 {
+  margin: 0 -0.4em;
+  padding: 0.1em 0.2em;
+  border-radius: 0.5em;
+  background: transparent;
+  background-image: linear-gradient(
+    to right,
+    rgba(2, 194, 248, 0.15), 
+    rgba(0, 200, 255, 0.2) 
+  );
   -webkit-box-decoration-break: clone;
   box-decoration-break: clone;
-  filter: url(#marker-shape);
-  /* Note: The appearance can be sensitive to font size, line height, and filter parameters. */
-  /* Adjust padding, baseFrequency, or scale in the SVG filter if needed. */
+  color: inherit !important; /* Use the original text color instead of white */
 }
 
-/* Approach 2: Gradient Background for custom <marker> element (Commented Out) */
+marker2 {
+  background: transparent;
+  padding: 0;
+  margin: 0;
+  border-bottom: 1px solid rgba(0, 200, 255, 0.628);
+  /* box-shadow: inset 0 -0.15em 0 rgba(0, 200, 255, 0.513); */
+  box-shadow: inset 0 -0.55em 0 rgba(0, 200, 255, 0.2);
+  color: inherit !important;
+}
 
-marker {
+marker3 {
+  margin: 0 -0.2em;
+  padding: 0.1em 0.2em;
+  border-radius: 0.3em;
+  background-image: linear-gradient(
+    to right,
+    rgba(213, 240, 255, 0.7),
+    rgba(202, 240, 255, 0.8)
+  );
+  -webkit-box-decoration-break: clone;
+  box-decoration-break: clone;
+  color: #333 !important; /* Darker text for better readability */
+}
+
+marker4 {
+  color: rgb(0, 185, 236) !important; /* Same blue as used in other markers */
+  font-weight: 500; /* Slightly increased weight */
+  background: transparent; /* No background */
+  padding: 0;
+  margin: 0;
+  border: none;
+  box-shadow: none;
+}
+
+marker5 {
   margin: 0 -0.4em;
-  padding: 0.1em 0.4em;
+  padding: 0.1em 0.2em;
   border-radius: 0.7em 0.3em; /* Creates a softer, more marker-like edge */
   background: transparent; /* Important for the gradient to show */
   background-image: linear-gradient(
@@ -218,28 +249,4 @@ marker {
   -webkit-box-decoration-break: clone; /* Ensures effect works across line breaks */
   box-decoration-break: clone; /* Ensures effect works across line breaks */
   color: #ffffff !important; /* White text for contrast with blue highlight */
-}
-
-/* -- Rough.js Highlighting Approach -- */
-/* Apply this class to a <span> to be targeted by the Rough.js script. */
-/* The script itself creates an SVG element for the visual highlight. */
-/* The parent <p> of this span should ideally have 'position: relative;' */
-/* (the script attempts to set this if it's 'static'). */
-.rough-highlight {
-  display: inline; /* Default for span, prevents empty ruleset error */
-  /* This class is primarily a JavaScript target. */
-  /* The text color itself is inherited. */
-}
-
-/* -- jQuery.marker-animation Highlighting Approach -- */
-/* Apply this class to a <span> to be targeted by the jquery.marker-animation script. */
-.jq-marker-highlight {
-  display: inline; /* Default for span, prevents empty ruleset error */
-  /* This class is primarily a JavaScript target. */
-  /* The plugin will handle the visual highlighting. */
-  /* Text color is inherited. */
-  /* Fallback style if JS doesn't load/run: */
-  /* background-color: rgba(255, 109, 183, 0.3); */ /* Light pink fallback */
-  /* padding: 0.1em 0.2em; */
-  /* border-radius: 0.2em; */
 }

@@ -6,14 +6,6 @@
 	   Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
    -->
 <html>
-<svg xmlns="//www.w3.org/2000/svg" version="1.1" class="svg-filters" style="display:none;">
-  <defs>
-    <filter id="marker-shape">
-      <feTurbulence type="fractalNoise" baseFrequency="0 0.15" numOctaves="1" result="warp" />
-      <feDisplacementMap xChannelSelector="R" yChannelSelector="G" scale="30" in="SourceGraphic" in2="warp" />
-    </filter>
-  </defs>
-</svg>
     {% include head.html %}
 
 	  <body class="is-loading">
@@ -29,8 +21,9 @@
 
             <section id="bio" class="box">
                 <header><h2 id="time-based-greeting">Hello!</h2></header>                <p>My name is <span class="brand-name">Maciej<canvas id="canvas3d"></canvas></span> Kos. <br>
-				My research is driven by the goal of <span class="rough-highlight">extending healthspan and amplifying cognitive performance through technology-enabled interventions and scientific discovery.</span> </p>
-				My research is driven by the goal of <span class="jq-marker-highlight">extending healthspan and amplifying cognitive performance through technology-enabled interventions and scientific discovery.</span> </p>
+                    
+                    My research is driven by the goal of <marker0>extending healthspan and amplifying cognitive performance through technology-enabled interventions and scientific discovery.</marker0> </p>
+
 			
 				<p>I am a Postdoctoral Research Fellow at the <a href="https://cbh.northeastern.edu/">Center for Cognitive and Brain Health</a> at Northeastern University.</p>
 				
@@ -254,31 +247,6 @@
             });
             </script>
 
-            <!-- jQuery and jquery.marker-animation Setup -->
-            <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-            <script src="{{ "/assets/js/jquery.marker-animation.js" | absolute_url }}"></script>
-            <script>
-            $(document).ready(function() {
-                if (typeof $.fn.markerAnimation === 'function') {
-                    // Target for jquery.marker-animation
-                    $('.jq-marker-highlight').markerAnimation({
-                        color: '#ff6db7', // Example: Pinkish color
-                        thickness: '0.6em',
-                        duration: '2s',
-                        delay: '0.5s'
-                        // Add other options based on the specific plugin's documentation
-                    });
-                } else {
-                    console.warn('jquery.marker-animation.js is not loaded or not a function. Applying fallback style.');
-                    const jqHighlights = document.querySelectorAll('.jq-marker-highlight');
-                    jqHighlights.forEach(el => {
-                        el.style.backgroundColor = 'rgba(255, 109, 183, 0.3)'; // Light pink fallback
-                        el.style.padding = '0.1em 0.2em';
-                        el.style.borderRadius = '0.2em';
-                    });
-                }
-            });
-            </script>
         </div>
 
     </body>
