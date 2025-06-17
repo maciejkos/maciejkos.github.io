@@ -1,16 +1,16 @@
 # Dr. Maciej Kos, Northeastern University
 
-> Research focuses on personal health informatics with an emphasis on using wearables and data science to understand and improve cognitive health.
+> Research focuses on digital health and computational methods, emphasizing mHealth technologies, passive sensing, and data-driven approaches to monitor and enhance cognitive health.
+
 
 ## Key Documents
-- [My Academic CV](/assets/documents/Maciej_R_Kos_cv.pdf): A complete list of publications, grants, teaching, and professional service.
-- [My Resume](/assets/documents/Maciej%20Kos%20-%20resume%20-%20current.pdf): A summary of my professional experience.
+- [Academic CV](/assets/documents/Maciej_R_Kos_cv.pdf): A complete list of publications, grants, teaching, and professional service.
+- [Resume](/assets/documents/Maciej%20Kos%20-%20resume%20-%20current.pdf): A summary of my professional experience.
+- [Homepage & Contact](/index.html): Biography, contact links, and high-level overview of research and teaching.
+
 
 ## Research Focus
-- [My Projects](/projects.html): An overview of my past and current research projects.
+- [Research Overview](/index.html#bio): Statement of long-term goals, methods, and interdisciplinary approach to digital health.  
 
 ## Publications
-- [Publications](/publications.html): A list of all peer-reviewed papers and pre-prints.
-
-## Resources
-- [GitHub Profile](https://github.com/maciejkos): Open-source code for projects and research tools.
+- [Publications List](/publications.html): Peer-reviewed papers, pre-prints, and conference presentations organized by year.
