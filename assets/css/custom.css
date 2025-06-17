@@ -219,3 +219,27 @@ marker {
   box-decoration-break: clone; /* Ensures effect works across line breaks */
   color: #ffffff !important; /* White text for contrast with blue highlight */
 }
+
+/* -- Rough.js Highlighting Approach -- */
+/* Apply this class to a <span> to be targeted by the Rough.js script. */
+/* The script itself creates an SVG element for the visual highlight. */
+/* The parent <p> of this span should ideally have 'position: relative;' */
+/* (the script attempts to set this if it's 'static'). */
+.rough-highlight {
+  display: inline; /* Default for span, prevents empty ruleset error */
+  /* This class is primarily a JavaScript target. */
+  /* The text color itself is inherited. */
+}
+
+/* -- jQuery.marker-animation Highlighting Approach -- */
+/* Apply this class to a <span> to be targeted by the jquery.marker-animation script. */
+.jq-marker-highlight {
+  display: inline; /* Default for span, prevents empty ruleset error */
+  /* This class is primarily a JavaScript target. */
+  /* The plugin will handle the visual highlighting. */
+  /* Text color is inherited. */
+  /* Fallback style if JS doesn't load/run: */
+  /* background-color: rgba(255, 109, 183, 0.3); */ /* Light pink fallback */
+  /* padding: 0.1em 0.2em; */
+  /* border-radius: 0.2em; */
+}
