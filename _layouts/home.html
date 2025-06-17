@@ -6,7 +6,14 @@
 	   Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
    -->
 <html>
-
+<svg xmlns="//www.w3.org/2000/svg" version="1.1" class="svg-filters" style="display:none;">
+  <defs>
+    <filter id="marker-shape">
+      <feTurbulence type="fractalNoise" baseFrequency="0 0.15" numOctaves="1" result="warp" />
+      <feDisplacementMap xChannelSelector="R" yChannelSelector="G" scale="30" in="SourceGraphic" in2="warp" />
+    </filter>
+  </defs>
+</svg>
     {% include head.html %}
 
 	  <body class="is-loading">
@@ -22,7 +29,7 @@
 
             <section id="bio" class="box">
                 <header><h2 id="time-based-greeting">Hello!</h2></header>                <p>My name is <span class="brand-name">Maciej<canvas id="canvas3d"></canvas></span> Kos. <br>
-				My research is driven by the goal of extending healthspan and amplifying cognitive performance through technology-enabled interventions and scientific discovery.</p>
+				My research is driven by the goal of <span class="svg-highlight">extending healthspan and amplifying cognitive performance through technology-enabled interventions and scientific discovery.</span> </p>
 			
 				<p>I am a Postdoctoral Research Fellow at the <a href="https://cbh.northeastern.edu/">Center for Cognitive and Brain Health</a> at Northeastern University.</p>
 				
@@ -51,7 +58,7 @@
                     <li>mHealth technologies</li>
                     <li>Passive sensing</li>
                     <li>Behavioral modeling and interventions</li>
-                    <li>data sciences</li>
+                    <li>Data sciences</li>
                 </ul>
 
 
@@ -146,8 +153,7 @@
                     // Initialize Spline with alpha transparency enabled
                     const app = new Application(canvas, { alpha: true });
                     window.splineApp = app; // Make app globally accessible for debugging
-                    // Load your Spline scene
-                    // app.load('https://prod.spline.design/xIlBsxiyKVk7LQGm/scene.splinecode')
+  
                     // Load your Spline scene from local assets
                     app.load('{{ "/assets/spline/scene.splinecode" | absolute_url }}')
                         .then(() => {
@@ -171,9 +177,6 @@
 
                     // Make the canvas clickable to play a sound
                     if (typeof Howl !== 'undefined') {
-                        // IMPORTANT: Replace with the correct path to your audio file.
-                        // This assumes your audio file is, for example, at 'assets/audio/maciej_name_pronunciation.mp3'
-                        // It's likely the same audio file your existing SVG name pronunciation button uses.
                         const soundToPlayOnCanvasClick = new Howl({
                             src: ['{{ "assets/audio/name.mp3" | absolute_url }}', '{{ "assets/audio/name.mp3" | absolute_url }}'],
                             html5: true // Recommended for broader compatibility, especially on mobile.

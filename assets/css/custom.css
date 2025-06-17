@@ -163,14 +163,12 @@ a.logo:hover {
     color: #009dca !important; /* keep blue text/icon */
 }
 
-/* Canvas size reduction - Multiple options for experimentation */
-
 /* Option 1: Canvas with CSS scaling - CURRENTLY ACTIVE */
 #canvas3d {
     /* border: 2px solid red !important; Temporary debug border */
     width: 22.67px !important;       /* Reasonable viewport size */
     height: 22.67px !important;      /* Reasonable viewport size */
-    transform: scale(1) !important;  /* Scale down to 25% = 15px visual */
+    transform: scale(1) !important;  
     transform-origin: center !important;
     vertical-align: -0.01em !important;
     /* margin: -2px -2.5px !important; */
@@ -183,89 +181,41 @@ a.logo:hover {
     position: relative !important; /* Helps with margin collapsing */
 }
 
-/* Even more aggressive - override any possible inline styles */
-/* canvas[id="canvas3d"] {
-    max-width: 5px !important;
-    max-height: 5px !important;
-    width: 5px !important;
-    height: 5px !important;
-    vertical-align: -0.01em !important;
-    margin: 0 !important;
-} */
+/* Highlighter marker style */
 
-/* JavaScript fallback - add this script tag to your HTML if CSS doesn't work */
-/*
-<script>
-document.addEventListener('DOMContentLoaded', function() {
-    const canvas = document.getElementById('canvas3d');
-    if (canvas) {
-        canvas.style.cssText = 'max-width: 5px !important; max-height: 5px !important; width: 5px !important; height: 5px !important; vertical-align: -0.01em !important; margin: 0 !important; display: inline-block !important;';
-        canvas.width = 5;
-        canvas.height = 5;
-    }
-});
-</script>
-*/
 
-/* Option 2: Very small canvas (uncomment to use) */
-/*
-#canvas3d {
-    max-width: 40px !important;
-    max-height: 40px !important;
-    width: 60px !important;
-    height: 60px !important;
-    vertical-align: -0.3em !important;
-    margin: 0 2px !important;
+/* --- New Highlight Approaches --- */
+
+/* Approach 1: Filtered Highlight with <span> (New) */
+/* Apply this class to a <span> element wrapping the text to be highlighted. */
+/* Ensure the SVG filter with id="marker-shape" is defined on the page. */
+.svg-highlight {
+  background-color: #ff6db7; /* Base color for the highlight */
+  color: inherit;             /* Inherits text color; set explicitly if needed */
+  padding: 0.1em 0.2em;       /* Small padding to give filter space - adjust as needed */
+                              /* The filter effect might extend beyond this padding */
+  -webkit-box-decoration-break: clone;
+  box-decoration-break: clone;
+  filter: url(#marker-shape);
+  /* Note: The appearance can be sensitive to font size, line height, and filter parameters. */
+  /* Adjust padding, baseFrequency, or scale in the SVG filter if needed. */
 }
-*/
 
-/* Option 3: Small canvas (uncomment to use) */
-/*
-#canvas3d {
-    max-width: 50px !important;
-    max-height: 50px !important;
-    width: 75px !important;
-    height: 75px !important;
-    vertical-align: -0.4em !important;
-    margin: 0 !important;
+/* Approach 2: Gradient Background for custom <marker> element (Commented Out) */
+
+marker {
+  margin: 0 -0.4em;
+  padding: 0.1em 0.4em;
+  border-radius: 0.7em 0.3em; /* Creates a softer, more marker-like edge */
+  background: transparent; /* Important for the gradient to show */
+  background-image: linear-gradient(
+    to right,
+    rgba(2, 194, 248, 0.982), /* Start with a lighter shade of blue (#009dca) */
+    rgb(1, 200, 255) 15%, /* Transition to a more solid blue */
+    rgb(0, 200, 255) 85%, /* Hold the solid blue */
+    rgb(0, 200, 255) /* End with a lighter shade of blue */
+  );
+  -webkit-box-decoration-break: clone; /* Ensures effect works across line breaks */
+  box-decoration-break: clone; /* Ensures effect works across line breaks */
+  color: #ffffff !important; /* White text for contrast with blue highlight */
 }
-*/
-
-/* Option 4: Compact canvas - CURRENTLY ACTIVE */
-/* #canvas3d {
-    max-width: 25px !important;
-    max-height: 25px !important;
-    width: 35px !important;
-    height: 35px !important;
-    vertical-align: -0.1em !important;
-    margin: 0 1px !important;
-    display: inline-block !important;
-} */
-
-/* Option 5: Micro canvas (uncomment to use) */
-/*
-#canvas3d {
-    max-width: 20px !important;
-    max-height: 20px !important;
-    width: 30px !important;
-    height: 30px !important;
-    vertical-align: -0.05em !important;
-    margin: 0 !important;
-}
-*/
-
-/* Option 6: Remove all margins and padding around canvas */
-/*
-#canvas3d {
-    max-width: 35px !important;
-    max-height: 35px !important;
-    width: 50px !important;
-    height: 50px !important;
-    vertical-align: baseline !important;
-    margin: 0 !important;
-    padding: 0 !important;
-    border: none !important;
-}
-*/
-
-
